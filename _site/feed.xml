@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Mike Key</title>
+        <description></description>
+        <link>http://mk3y.com/</link>
+        <atom:link href="http://mk3y.com/feed.xml" rel="self" type="application/rss+xml" />
+        <pubDate>Sun, 07 Dec 2014 15:56:54 -0600</pubDate>
+        <lastBuildDate>Sun, 07 Dec 2014 15:56:54 -0600</lastBuildDate>
+        <generator>Jekyll v2.5.2</generator>
+        
+            <item>
+                <title>Rebooting The Site</title>
+                <description>&lt;p&gt;As a professional front end developer, having a broken &amp;amp; crappy personal website has been somewhat of a thorn in my side. That thing I’m always meaning to get around to working on, but never do. And it certainly doesn’t help me career-wise.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;cms-less&quot;&gt;CMS-less&lt;/h2&gt;
+
+&lt;p&gt;I’ve decided to abandon WordPress for my personal site. I’ve been using WordPress both professionally and personally since 2007. With content managers however comes certain amount of overhead and code bloat that you are simply stuck with.&lt;/p&gt;
+
+&lt;p&gt;If less is more, then I’d like to do with less bloat and more of my own work please. I’d like build my own sandbox rather than play in someone else’s.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-in-public&quot;&gt;Building in public&lt;/h2&gt;
+
+&lt;p&gt;To some greater extent I’m doing this work in public. I might be late to the game, but I’ve been a code cowboy for TOO LONG editing files live on the server via FTP. Revisions? Not here. Well, that stops now with my personal work. I’ve decided to start a repo on Github, and I’ll be downing regular commits as this project develops.&lt;/p&gt;
+
+&lt;p&gt;I don’t get a huge amount of traffic. Those of you who made it here will get to see this process and I’ll share how things go.&lt;/p&gt;
+
+&lt;h2 id=&quot;project-goals&quot;&gt;Project goals&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;~~Roll ubuntu 14.04 server with LEMP~~&lt;/li&gt;
+  &lt;li&gt;Get good with Git and working with Git Hub&lt;/li&gt;
+  &lt;li&gt;Switch from WordPress to Jeykll&lt;/li&gt;
+  &lt;li&gt;Move blog comments to Disqus&lt;/li&gt;
+  &lt;li&gt;Deploy repo of site on Github as Open Source&lt;/li&gt;
+  &lt;li&gt;Learn to use Haml&lt;/li&gt;
+  &lt;li&gt;Learn to use Sass&lt;/li&gt;
+  &lt;li&gt;Learn to use Grunt/Gulp&lt;/li&gt;
+  &lt;li&gt;Get back to writing daily&lt;/li&gt;
+  &lt;li&gt;Learn new things&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Sun, 28 Sep 2014 00:00:00 -0500</pubDate>
+                <link>http://mk3y.com/rebooting-the-site/</link>
+                <guid isPermaLink="true">http://mk3y.com/rebooting-the-site/</guid>
+                
+                
+                    <category>motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>Jekyll + Github Pages</title>
+                <description>&lt;p&gt;Recently I decided to migrate this website from WordPress to Jekyll and host it with &lt;a href=&quot;https://github.com/devbymike/devbymike.github.io&quot;&gt;Github pages&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;The transition has been a smooth one with a small learning curve when compared to WordPress. And the speed of development is at least 5x as fast.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Having used WordPress since 2007 I had grown to dislike how bloated it’s felt with each new feature release. Since v3.0 it seems like WordPress has just been gaining weight and bloat.&lt;/p&gt;
+
+&lt;p&gt;Constantly needing to backup WordPress and install security updates and worrying about if a plugin will break my theme or not is another source of irritation for me.&lt;/p&gt;
+
+&lt;p&gt;So in order to branch out and learn something new, I decided to first &lt;a href=&quot;http://mikekey.com/rebooting-the-site/&quot;&gt;Get Good with Git&lt;/a&gt;. And then try something new.&lt;/p&gt;
+
+&lt;h3 id=&quot;enter-jekyll&quot;&gt;Enter Jekyll.&lt;/h3&gt;
+
+&lt;p&gt;When I learned about &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; it seemed like a great alternative. The site is static so it loads twice as fast as WordPress. No heavy database over head, no security updates to worry about. No heavy bloated backend.&lt;/p&gt;
+
+&lt;p&gt;All my posts are in Markdown, and I’ve been using iA Writer for awhile to write, so nothing new to learn there.&lt;/p&gt;
+
+&lt;p&gt;The fact that GitHub provides [free hosting for Jekyll blogs[(http://pages.github.com/) is just icing on the cake. It will save me some cash in hosting. GitHub provides automatic version control of my blog as well. I can use GitHub’s web editor to write blog posts online. And I can still connect it to my custom domain (&lt;a href=&quot;http://devbymike.com&quot;&gt;devybymike.com&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;So here it is, my first post, and the new site up and running.&lt;/p&gt;
+</description>
+                <pubDate>Tue, 23 Sep 2014 23:07:49 -0500</pubDate>
+                <link>http://mk3y.com/jekyll-github-pages</link>
+                <guid isPermaLink="true">http://mk3y.com/jekyll-github-pages</guid>
+                
+                
+                    <category>experiments</category>
+                
+            </item>
+        
+            <item>
+                <title>Dream Big, Act Big</title>
+                <description>&lt;p&gt;It is a wonderful thing to dream, but it’s an even better thing to act upon those dreams. Throughout my life I’ve dreamed of a certain lifestyle, certain freedoms and the chance to do the extraordinary, but it wasn’t until after college that I realized dreams were just realities waited to be acted upon. This realization changed my life, up until about 21 I’d always assumed that you could *dream *but life happened to you regardless. This couldn’t be further from the truth and as I ‘wake up’ more and more from the fog of ‘the real world’ I see that your life can be as big as you dream it but your dreams can only be as big as you are willing to act upon.&lt;/p&gt;
+
+&lt;p&gt;This is actually reason for celebration, it means you don’t have to wake up everyday and think ‘what will life hand me today’ instead you can literally happen to life, all it takes are baby steps. The way I act upon my dreams is three fold, I’ll explain my ‘action plan’ below:&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;**Quantify the dream. **Don’t say ‘I want to be rich and happy’ you must find ways to measure how rich and what ‘happiness’ looks like. So when you have a dream immediately put it onto paper and force yourself to quantify it. Now ‘I want to be rich and happy’ turns into ‘I want to have $100,000 in the bank in 2 years and I want to have met and married my dream girl’.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Map out the dream.&lt;/strong&gt; So now that you know what ‘rich’ and ‘happy’ look like you can start to draw a plan (the more detailed the better) to get there. If you are driving somewhere you’ve never been you’d be a fool to not have a map (or mapquest) so why in life if you are heading towards a goal you’ve never achieved before would you leave the specifics to chance? It’s foolish, and more important it’s laziness masking itself with titles like ‘carefree’. So now assess your life as it stands, say you are working a job that pays $12 an hour part time, you aren’t going to get to your monetary goal this way so it’s time to change course. Develop an action plan based on what you like to do and what could possibly bring in extra income, then follow that plan to the T. What helps me is reading success stories, it not only inspires you but helps get your creative juices flowing about the &lt;em&gt;hows&lt;/em&gt; of your specific goal. Secondly you want to meet and marry your dream girl, well if your single right now – or not with your dream girl – you’ll have to change course fast. Start meeting new people, go to a match maker, check out a dating site, ask your friends to set you up and actively search out the girl of your dreams vs. waiting on ‘chance’.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;*Live the dream. **Now as you act every day on these goals it is time to live ‘as if’, this means reminding yourself all the time of what your life will look like in 2 years and why you are going for those goals. It means not worry about finances or finding the right girl anymore because you &lt;/em&gt;know* deep down in 2 years time you’ll be there. Thinking as if is a vital part of reaching your goals but must be paired with quantification and mapping out your dream… if it isn’t you aren’t ‘living as if’ your delusional &lt;img src=&quot;http://mikekey.com/wp-includes/images/smilies/icon_smile.gif&quot; alt=&quot;:)&quot; class=&quot;wp-smiley&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now it’s time for you to act, comment below on at least one of your dreams and quantify it. In a month or so come back and reply with any progress you’ve made, this social pressure alone will help you push yourself out of your comfort zone and into the land of the &lt;em&gt;living&lt;/em&gt;. It is time to seize your dreams, it’s time to stop moping and stop making excuses – nothing is impossible when you pair an ardent dream with incredible action.&lt;/p&gt;
+</description>
+                <pubDate>Thu, 25 Jul 2013 00:00:00 -0500</pubDate>
+                <link>http://mk3y.com/dream-big-act-big/</link>
+                <guid isPermaLink="true">http://mk3y.com/dream-big-act-big/</guid>
+                
+                
+                    <category>motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>TRY &gt; FAIL &gt; ADJUST</title>
+                <description>&lt;p&gt;I’m pretty sure I learned this little tidbit when I was involved with Quixtar, but it’s a pretty simple principle.&lt;/p&gt;
+
+&lt;p&gt;Most people who try something and then experience failure just give up and quit. That’s the wrong approach. After you experience a failure you need to simply readjust what you are doing and try it again. If you fail again, ADJUST WHAT YOU ARE DOING AGAIN. Keep doing this until you succeed.&lt;/p&gt;
+
+&lt;p&gt;I’ve failed in business a couple of times. Most recently I tried to start an IT company with a friend. I very quickly learned that two heads is a monster, especially when you both have different ideas about the direction the company should go. The whole thing turned out to be a big waste of nearly 3 months. Complete failure.&lt;/p&gt;
+
+&lt;p&gt;Did I give up and go looking for a job? NO! I adjusted my plan for business, this time, minus the business partner. New name, new plan, new strategy, and now I’m 3 months into a successful web development company.&lt;/p&gt;
+
+&lt;p&gt;The simple point here is if you fail, get up and brush the dust off your feet. Take a look at what you did wrong, learn from it. Adjust your plan and try again. If you fail, adjust and try again until you end up with this formula Try = Success!&lt;/p&gt;
+</description>
+                <pubDate>Sat, 20 Jul 2013 00:00:00 -0500</pubDate>
+                <link>http://mk3y.com/try-fail-adjust/</link>
+                <guid isPermaLink="true">http://mk3y.com/try-fail-adjust/</guid>
+                
+                
+                    <category>motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>You Have to Make It Happen</title>
+                <description>&lt;p&gt;We’ve got a real problem in this country with people and what they believe. No I’m NOT talking politics. We’ve bread a culture that believes things should be handed to them, that they no longer have to work hard for success, but that it should be handed to them.&lt;/p&gt;
+
+&lt;p&gt;This is a wrong way of thinking; one that needs to change. &lt;strong&gt;If you want something, you’re going to have to go out and make it happen.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m learning this first hand. For years I talked about business and being successful. In reality I was waiting for success to land in my lap. I was hoping it would be handed to me with the least effort possible, and in turn my first couple of businesses were mediocre. I applied the least amount of effort to everything I did.&lt;/p&gt;
+
+&lt;p&gt;And then one day a light bulb went off.&lt;/p&gt;
+
+&lt;p&gt;I’ve found a lot of success already, because I’m pouring blood, sweat and tears into making it happen. I’m getting out there and hitting the pavement, shaking hands, staying up late working on projects, making phone calls, doing follow ups, going to networking events, building my following on twitter, keeping up with it on facebook, etc. I’m putting in the work, not just sitting back and hoping it will come to me. I stay up late and fry my eyes with two 24inch computer screens, doing favors, hoping for some return. I’m taking a huge risk on all of this right now. &lt;a href=&quot;http://www.mikekey.com/take-risks-for-greater-success/&quot;&gt;But with risk, comes great rewards&lt;/a&gt;. If this thing is going to happen, I’m going to make it happen.&lt;/p&gt;
+
+&lt;p&gt;Now, here’s the deal. We all know this principle. So why are so many of you waiting around for success to land in your lap? Equally, why are so many of you thinking that you should be handed that next big promotion without doing any work?&lt;/p&gt;
+
+&lt;p&gt;If you want something, you’re going to have to pursue it. You’re going to have to bleed out of your eyeballs to make it happen. You’re going to have to be relentless in some cases. You’re friends will probably think you are crazy. Forget them. Your friends are probably losers anyways. Stop dreaming pie in the sky and start making the pie. (Does that even make sense?) You’ll probably have to get &lt;a href=&quot;http://www.mikekey.com/learning-to-get-outside-your-comfort-zone/&quot;&gt;outside your comfort zone&lt;/a&gt; for starters.&lt;/p&gt;
+
+&lt;p&gt;My wife wants to buy a Hummer. A freaking Hummer in this economy! And guess what, she’s going to drive a freaking Hummer because &lt;strong&gt;WE ARE GOING TO MAKE IT HAPPEN&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Only one way that is going to happen. Not by me sitting around &lt;a href=&quot;http://www.mikekey.com/luck-is-bullcrap/&quot;&gt;hoping to get lucky&lt;/a&gt;, but by me getting out there and &lt;strong&gt;MAKING IT HAPPEN&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stop waiting for lady luck, get up off your ass and &lt;span style=&quot;text-decoration: underline;&quot;&gt;MAKE IT HAPPEN&lt;/span&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Word of the wise, there are &lt;a href=&quot;http://www.mikekey.com/why-quixtar-is-a-bad-idea/&quot;&gt;&lt;strong&gt;NO SHORT CUTS&lt;/strong&gt;&lt;/a&gt; to &lt;strong&gt;SUCCESS&lt;/strong&gt;. So avoid the MLM’s.&lt;/p&gt;
+
+</description>
+                <pubDate>Mon, 15 Jul 2013 00:00:00 -0500</pubDate>
+                <link>http://mk3y.com/you-have-to-make-it-happen/</link>
+                <guid isPermaLink="true">http://mk3y.com/you-have-to-make-it-happen/</guid>
+                
+                
+                    <category>motivation</category>
+                
+            </item>
+        
+            <item>
+                <title>‘I’m a Foursquare Cheater&#39;</title>
+                <description>&lt;p&gt;I’m coming clean, I’m a Foursquare cheater.&lt;/p&gt;
+
+&lt;p&gt;And why not? I personally think it’s funny that right now as of this posting I’m the mayor of places like the &lt;a href=&quot;http://foursquare.com/venue/640387&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Taj Mahal&lt;/a&gt;, the &lt;a href=&quot;http://foursquare.com/venue/485303&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Pyrmaids&lt;/a&gt; and the &lt;a href=&quot;http://foursquare.com/venue/73484&quot; target=&quot;_blank&quot;&gt;PlayBoy Mansion&lt;/a&gt;. Even thought I’ve never physically been to any of these places. TO be honest, cheating has become more and more fun.&lt;/p&gt;
+
+&lt;p&gt;I was inspired by a guy called &lt;a href=&quot;http://www.krazydad.com/blog/2010/02/mayor-of-the-north-pole/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Dr. Cheat&lt;/a&gt; who also blogged about it and become the mayor of dozens of places. The problem with Foursquare.com and services like such as Gowalla.com is that there are holes in the validation system. And I found the biggest one of them all. The mobile website. I first learned about this from TechCrunch here: &lt;a href=&quot;http://techcrunch.com/2010/02/16/foursquare-cheating/&quot; rel=&quot;nofollow&quot;&gt;http://techcrunch.com/2010/02/16/foursquare-cheating/&lt;/a&gt; But you don’t need an API to check in to any place on planet earth, you can do it from your computer, so long as you use some logic.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://foursquare.com/mobile/venue/485303&quot; rel=&quot;nofollow&quot;&gt;http://foursquare.com/mobile/venue/485303&lt;/a&gt; &amp;lt; Just use the mobile website.&lt;/p&gt;
+
+&lt;p&gt;Now according to TechCrunch I’m pathetic because I’m cheating, but really I just want to say that I personally think there are two problems with the system. One is how easy it is for me to check in everywhere, and the second one is all the people who keep putting their homes on foursquare. We’ve all heard the stories about people who’ve been attacked on myspace, facebook, and other services. Is it a wise idea to put your home on foursqaure?  Maybe you should check out &lt;a href=&quot;http://pleaserobme.com/&quot; rel=&quot;nofollow&quot;&gt;http://pleaserobme.com/&lt;/a&gt; a site setup to show when people aren’t in their homes.&lt;br /&gt;
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;so-i-have-an-idea&quot;&gt;So I have an idea.&lt;/h3&gt;
+
+&lt;p&gt;Here’s my idea for a solution to this problem. It might not be a great one, or even a good one. But I think zip code based GPS checks for within the US might work with some sort of logic behind it. While I don’t know how to limit check in’s around the rest of the world, why not first force users to use GPS, and second since it can be hard to get a GPS location of your exact position, whats wrong with the general area? Foursquare should be able to figure out there is no way for me to be in Virginia one hour and then 20 minutes later be checking in at SXSW.&lt;/p&gt;
+
+&lt;p&gt;So if I check into 23462 which is where I live, I shouldn’t be able to check into Austin Texas at SXSW an hour later. Logic should tell the system that’s not possible. Just my thoughts.&lt;/p&gt;
+
+&lt;p&gt;Either way, until a solution is found, I’ll keep checking into the Pyramids until it becomes boring or one of you cleaver folks steals it from me.&lt;/p&gt;
+
+&lt;p&gt;Oh, and people who list their homes on foursqaure in my area, &lt;strong&gt;I’m checking into your house too&lt;/strong&gt;! Me being the Mayor of your house should creep you out enough to know better than to put your house on foursquare.&lt;/p&gt;
+
+&lt;h3 id=&quot;am-i-going-to-stop&quot;&gt;Am I going to stop?&lt;/h3&gt;
+
+&lt;p&gt;Well maybe… Anyone who knows me knows that I love to travel and explore. It’s part of my heart. And it’s one of the reasons I like the service. For one it let’s me share what I’m doing with friends, and two the things to do and tips can be very useful. I’ve used the service to hunt out some good restaurants locally that I never knew of. And I’m really waiting for the day when the concept of geocaching and foursquare merge. How about finding real prizes besides just badges. A friend of mine went around finding the Red Bull stashes that where hidden in our area recently as part of an advertising campaign. And that plus foursquare got me thinking about how companies could use the service with geocache prizes. If you find and claim it, you check in and receive the one off badge for that location. Plus you got the prize. Anyone else see where this could go?&lt;/p&gt;
+
+&lt;p&gt;Normally I don’t blog tech. However I decided recently to start blogging on the things I love, tech, cars, business and lifestyle design.&lt;/p&gt;
+
+&lt;h3 id=&quot;update&quot;&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;**I’ve decided to stop cheating for now. **I don’t think it’s up to me to expose something that is clearly a problem. But it is a fun problem none the less. It’s a great way to drive your friends nuts. But like I said above, foursquare is selling it’s services to businesses who might offer specials to people who become mayor. It’s so easy to cheat right now that I can only see that as turning out badly for business.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Since I posted this blog, one person has become very upset with me. Sorry!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;More Sources:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/#search?q=foursquare%20cheating&quot; rel=&quot;nofollow&quot;&gt;http://twitter.com/#search?q=foursquare%20cheating&lt;/a&gt; «** Check out how many people are tweeting about foursquare cheating, it’s a lot.**&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.examiner.com/x-30565-Montreal-Social-Media-Examiner~y2010m2d17-Foursquare-King-of-North-Pole-controversy-more-about-need-for-recognition-than-cheating&quot; rel=&quot;nofollow&quot;&gt;http://www.examiner.com/x-30565-Montreal-Social-Media-Examiner~y2010m2d17-Foursquare-King-of-North-Pole-controversy-more-about-need-for-recognition-than-cheating&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://gametipcenter.com/how-to-cheat-at-foursquare&quot; rel=&quot;nofollow&quot;&gt;http://gametipcenter.com/how-to-cheat-at-foursquare&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://techcrunch.com/2010/02/16/foursquare-cheating/&quot; rel=&quot;nofollow&quot;&gt;http://techcrunch.com/2010/02/16/foursquare-cheating/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.krazydad.com/blog/2010/02/mayor-of-the-north-pole/&quot; rel=&quot;nofollow&quot;&gt;http://www.krazydad.com/blog/2010/02/mayor-of-the-north-pole/&lt;/a&gt;&lt;/p&gt;
+</description>
+                <pubDate>Sun, 14 Mar 2010 00:00:00 -0600</pubDate>
+                <link>http://mk3y.com/im-a-foursquare-cheater/</link>
+                <guid isPermaLink="true">http://mk3y.com/im-a-foursquare-cheater/</guid>
+                
+                
+                    <category>archived</category>
+                
+            </item>
+        
+            <item>
+                <title>Action Cures Fear</title>
+                <description>&lt;blockquote&gt;
+  &lt;p&gt;**Fear is the one thing stopping you from taking action. And guess what. Not taking action is what is stopping you from having everything you want. ** &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you want to succeed at anything chances are you’re going to have to &lt;a href=&quot;http://www.mikekey.com/learning-to-get-outside-your-comfort-zone/&quot;&gt;get outside of your comfort zone&lt;/a&gt; and face some fears, take some risks and take some &lt;strong&gt;ACTION&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;How do you face that fear?&lt;/p&gt;
+
+&lt;p&gt;With &lt;strong&gt;ACTION!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Stop thinking and trying to rationalize your fears and learn to take immediate action. If you’re afraid to talk to people, then start talking to people. Start by saying hello to random strangers where ever you go. The more action you take the more the fear will cease to be.&lt;/p&gt;
+
+&lt;p&gt;When you take action you’ll begin to grow and your comfort zone will begin be stretched. If you really want to grow, get outside your comfort zone and stay there.&lt;/p&gt;
+
+&lt;p&gt;Keep taking action. Whatever it is you want to achieve in life, it’s going to have to begin with you taking action. And if fear is the one thing holding you back, then the cure to that fear is &lt;strong&gt;ACTION&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bonus Advice: Desire Follows Direction -&lt;/strong&gt; You ever have one of those moments when you just don’t feel like doing it, but you know you need to do it? Well &lt;a href=&quot;http://www.mikekey.com/just-do-it-anyways/&quot;&gt;&lt;strong&gt;JUST DO IT ALREADY&lt;/strong&gt;&lt;/a&gt;. Desire follows direction&lt;strong&gt;, act now – feelings later&lt;/strong&gt;.** &lt;strong&gt;If you ever did something that you didn’t feel like doing and then later on you usually felt better for doing it, you applied this principle. See your desire and feelings will follow the direction the **ACTION&lt;/strong&gt; you take.**&lt;br /&gt;
+**&lt;/p&gt;
+
+</description>
+                <pubDate>Fri, 12 Feb 2010 00:00:00 -0600</pubDate>
+                <link>http://mk3y.com/action-cures-fear/</link>
+                <guid isPermaLink="true">http://mk3y.com/action-cures-fear/</guid>
+                
+                
+                    <category>archived</category>
+                
+            </item>
+        
+            <item>
+                <title>Take Risks for Greater Success</title>
+                <description>&lt;p&gt;&lt;strong&gt;Do you want more success?&lt;/strong&gt; Then you’re going to have to learn to &lt;a href=&quot;http://www.mikekey.com/learning-to-get-outside-your-comfort-zone/&quot; title=&quot;GET OUTSIDE YOUR COMFORT ZONE&quot;&gt;get outside your comfort zone&lt;/a&gt; and start taking some risks! Rock Climbing is by nature a dangerous sport, but the pure thrill and rewards of scaling a mountain are well worth that risk.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Often in our lives anything worth doing involves some level of risk&lt;/em&gt;&lt;/strong&gt;. Quiting your job to go start a business is risky, especially if you’ve got mouths to feed at home.  Just like in rock climbing, we can do things to minimize these risks, but ultimately, we are not fully in control.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You have got to realize you can not control every aspect of life.&lt;/strong&gt; But if you let that fear of not being in control immobilize you, you will deny yourself the rewards that can come from taking great&lt;/p&gt;
+
+&lt;p&gt;risk and succeeding.&lt;/p&gt;
+
+&lt;p&gt;You’re bound to fail at some point, but you need to &lt;a href=&quot;http://www.mikekey.com/learning-to-get-outside-your-comfort-zone/&quot; title=&quot;Learn to step outside your comfort zone.&quot;&gt;step outside your comfort zone&lt;/a&gt;, embrace your fear and take some risks once in awhile.&lt;/p&gt;
+
+&lt;p&gt;I’m not advocating you take stupid risks or gamble with your life, but what I am trying to drive home is that sometimes a little risk is involved when it comes to achieving success.&lt;/p&gt;
+
+&lt;p&gt;From my perspective some of &lt;strong&gt;the greatest endeavors in history have involved all kinds of risks&lt;/strong&gt;. Think about all of the Astronauts in history. Every time one of them straps into a rocket they take the risk of blowing up to help advance mankind.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You can not let the fear of risk hold you back. **So the next time someone says your idea sounds risky, tell them to **TAKE A FLYING LEAP&lt;/strong&gt;.&lt;/p&gt;
+
+</description>
+                <pubDate>Sat, 06 Feb 2010 00:00:00 -0600</pubDate>
+                <link>http://mk3y.com/take-risks-for-greater-success/</link>
+                <guid isPermaLink="true">http://mk3y.com/take-risks-for-greater-success/</guid>
+                
+                
+                    <category>archived</category>
+                
+            </item>
+        
+            <item>
+                <title>Fatties Don&amp;#8217;t Climb Mountains</title>
+                <description>&lt;p&gt;Last time I checked, no fat guys have made it to the top of Mount Everest, and that, my friends, is a problem for me. You see, since I came home in August from my summer adventure I’ve been addicted to energy drinks and junk food. Most of the time my breakfast would consist of  Mountain Dew, some M&amp;amp;Ms and a Peanut Butter and Jelly Sandwich. (That’s high-style living!)&lt;/p&gt;
+
+&lt;p&gt;I’ve been packing on the pounds, and I’m ashamed to admit I went from 150lbs to 175lbs, almost pushing 180lbs. I’ve been jamming all this junk into my veins thinking it’s keeping me sharp and on my game. With trying to start a new business, launch my personal brand and blog, and taking on consulting gigs all at the same time I need the &lt;strong&gt;CAFFEINE&lt;/strong&gt;. In reality, this crap isn’t helping my game any. I’ve noticed a complete dwindling supply of creativity. Just look at my blog, my posts are getting less and less frequent.&lt;/p&gt;
+
+&lt;p&gt;To top it all off, this crap has some serious side effects to your health such as tooth decay, bone demineralization and the development of metabolic syndrome and diabetes. Constant sugar rushes from energy drinks are a major factor in the development of Type II diabetes. Evidence is starting to come out that high levels of sugar can even cause some neurological disorders.&lt;/p&gt;
+
+&lt;p&gt;As a entrepreneur, one should be conscience of their health and their body. When you feel your best, you’ll often give your best. A couple of years ago after a breakup with a long-term girlfriend I did a major detox. I unplugged for a whole month. No internet, no TV. I also gave up all the junk food and soda and started eating healthy and began jogging every day. All the TV and Internet time I replaced with reading up on all kinds of different things on self help and success. My mind was so sharp, and I was able to think clearer than ever.&lt;/p&gt;
+
+&lt;p&gt;Why did I stop? Well I got distracted by another girl. Go figure.&lt;/p&gt;
+
+&lt;p&gt;So being a fat fatty isn’t helping my business, and it isn’t helping my personal brand either. Ninja’s are not round. They are stealthy, agile and dangerous. And well, for the adventure seeker part, like I said, I am pretty sure there haven’t been any fat guys able to climb to the top of Everest.&lt;/p&gt;
+
+&lt;p&gt;Are you neglecting your health? What bad habits do you need to change right now to improve your life?&lt;/p&gt;
+
+&lt;p&gt;I’m declaring right here, publicly: I’m going to kick the caffeine starting today. I’m going to cut back on the unhealthy foods and start a work out program.&lt;/p&gt;
+
+&lt;p&gt;I’ll keep you all posted so you can keep me accountable.&lt;/p&gt;
+</description>
+                <pubDate>Fri, 05 Feb 2010 00:00:00 -0600</pubDate>
+                <link>http://mk3y.com/fatties-dont-climb-mountains/</link>
+                <guid isPermaLink="true">http://mk3y.com/fatties-dont-climb-mountains/</guid>
+                
+                
+                    <category>archived</category>
+                
+            </item>
+        
+            <item>
+                <title>Just Do It Anyways!</title>
+                <description>&lt;p&gt;What are you holding back on in life? What do you want to do that you are afraid to do because you are too busy worrying about what others might think?&lt;/p&gt;
+
+&lt;p&gt;Listen to me carefully. &lt;strong&gt;It does not matter what other people think of your idea.&lt;/strong&gt; If you have something you want to do, some idea or some perspective, just do it. Share it with the world. Don’t worry about what others will think or say. You will be better off for having done it, then not.&lt;/p&gt;
+
+&lt;p&gt;I made a post about my perspective on Porn and I’m pretty sure that 90% of people don’t agree with me on it. So what? I had something I’ve been wanting to share for awhile and I did it. And I feel better for sharing it. Rather than just being quiet about it. It doesn’t matter if I failed to convince anyone to see my perspective. What matters is that I did it.&lt;/p&gt;
+
+&lt;p&gt;When I quit my job a lot of my family members said I was nuts. It was the end of the world. “Oh no what are you going to do now” they said. But it didn’t matter, I had a dream and I wanted to start my own business, I wanted to get free from the template lifestyle and to live life my way on my terms. So I just went out and did it.&lt;/p&gt;
+
+&lt;p&gt;That’s what you have to do. Even if it’s rude to others, ignore them and pursue it.&lt;/p&gt;
+
+&lt;p&gt;So my question stands. What are you holding back on in life?&lt;/p&gt;
+</description>
+                <pubDate>Mon, 01 Feb 2010 00:00:00 -0600</pubDate>
+                <link>http://mk3y.com/just-do-it-anyways/</link>
+                <guid isPermaLink="true">http://mk3y.com/just-do-it-anyways/</guid>
+                
+                
+                    <category>archived</category>
+                
+            </item>
+        
+    </channel>
+</rss>
