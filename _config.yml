@@ -1,0 +1,45 @@
+title: 	"Mike Key"
+email: 	"mike@mk3y.com"
+description: ""
+baseurl: ""
+url: "http://mk3y.com"
+
+# Development settings
+development: false
+debug: false
+
+# Display settings
+markdown: kramdown
+permalink: pretty
+lsi: false
+
+# Pagination
+paginate: 10
+#paginate_path: "page:num"
+
+# Build settings
+timezone: America/Chicago
+future: false
+exclude:
+  - CONTRIBUTING.md
+  - README.md
+  - package.json
+  - gulpfile.js
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - css
+
+# Theme Settings
+theme_reading_time: true
+theme_always_show_nav: false
+
+# Extra gems to have fancy things.
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Asset Pipeline settings
+sass:
+ sass_dir: "assets/css/"
+ style: :compressed

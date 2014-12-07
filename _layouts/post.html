@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="index">
+    <div class="wrapper">
+        <h1 class="right">{{ page.title }}</h1>
+        <h2 class="left">Introduction</h2>
+    </div>
+</div>
+
+<div id="cover" class="cover {% if page.featured == true %} featured {% endif %}">
+    <div class="background" style="background-image:url('{{ page.banner_image }}');"></div>
+    <header class="wrapper">
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <h2>
+            {% for category in page.categories %}
+                {{ category }} 
+            {% endfor %}
+        </h2>
+        <span>
+            Posted by <a href="{{ site.author_url }}" target="_blank">{{ site.author_name }}</a>
+                on <i class="fa fa-clock-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>.
+        </span>
+    </header>
+    <i class="fa fa-chevron-down movedown"></i>
+</div>
+
+<section class="posts wrapper">
+    <article class="post {% if page.featured == true %} featured {% endif %}">
+        
+        <header>
+            <div class="feature"><span>Featured</span><i class="fa fa-bookmark fa-lg"></i></div>
+            <h1 id="posttitle"><a href="#">{{ page.title }}</a></h1>
+            <h2>
+                {% for category in page.categories %}
+                    {{ category }} 
+                {% endfor %}
+            </h2>
+            <span>
+                Posted by <a href="{{author.website}}" target="_blank">{{ site.author_name }}</a>
+                on <i class="fa fa-clock-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>.
+            </span>
+        </header>
+
+        <section class="postbody">
+            {{ content }}
+        </section>
+
+    </article>
+
+</section>
