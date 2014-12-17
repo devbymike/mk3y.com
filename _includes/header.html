@@ -1,12 +1,31 @@
-<header class="title">
-    <a href="{{ site.url }}">{{ site.title }}</a>
-</header>
+<header class='site-header' itemscope='itemscope' itemtype='http://schema.org/WPHeader' role='banner'>
+    <div class='wrap'>
+      
+        <div class='title-area'>
+            <h1 class='site-title' itemprop='headline'>
+                <a href='http://mk3y.com'><span class='mike'>Mike</span>Key</a>
+            </h1>
+            <h2 class='site-description' itemprop='description'>Airstream traveling full stack coder</h2>
+        </div>
+        
+        <nav class='nav-primary' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>       
+            <div class='wrap'>
+        
+                <div class='responsive-menu-icon'></div>
+                <ul class='header-menu'>
+                    <li>
+                        <a href='http://mk3y.com/about/'>About Me</a>
+                    </li>
+                    <li>
+                        <a href='http://mk3y.com/themes/'>Writings</a>
+                    </li>
+                    <li>
+                        <a href='http://mk3y.com/photos'>Photos</a>
+                    </li>
+                </ul>
+        
+            </div>
+        </nav>
 
-<nav class="wrapper {% if page.featured == true %} featured {% endif %} {% if site.theme_always_show_nav == true %} alwaysshow {% endif %}">
-    <a href="#" onclick="return false;"><i class="fa fa-navicon fa-lg"></i></a>
-    <ul>
-        {% for page in site.pages %}
-            {% if page.title %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}
-        {% endfor %}
-    </ul>
-</nav>
+    </div>
+</header>
