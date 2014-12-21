@@ -4,7 +4,8 @@ layout: post
 title: Rebooting The Site
 permalink: /rebooting-the-site/
 
-banner_image: "/media/desk.jpg"
+hero: true
+hero_img: "/media/desk.jpg"
 
 categories: Projects
 comments: false

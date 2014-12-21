@@ -3,7 +3,8 @@ layout: post
 title: "Jekyll + Github Pages"
 date:   2014-09-24 04:07:49
 category: experiments
-banner_image: "/media/desert.jpg"
+hero: false
+hero_image: "/media/desert.jpg"
 comments: false
 permalink: /jekyll-github-pages
 ---
