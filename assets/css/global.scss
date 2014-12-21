@@ -1,11 +1,22 @@
+@import url("//hello.myfonts.net/count/2ba6dd");
+@import url("//hello.myfonts.net/count/2ba72f");
+@import url("//hello.myfonts.net/count/2c53ea");
+@import url("//hello.myfonts.net/count/2c53ed");
+  
+@font-face {font-family: 'AvenirLTStd-Light';src: url('fonts/2BA6DD_0_0.eot');src: url('fonts/2BA6DD_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BA6DD_0_0.woff') format('woff'),url('fonts/2BA6DD_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Medium';src: url('fonts/2BA72F_0_0.eot');src: url('fonts/2BA72F_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BA72F_0_0.woff') format('woff'),url('fonts/2BA72F_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Heavy';src: url('fonts/2C53EA_0_0.eot');src: url('fonts/2C53EA_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2C53EA_0_0.woff2') format('woff2'),url('fonts/2C53EA_0_0.woff') format('woff'),url('fonts/2C53EA_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLT-Black';src: url('fonts/2C53ED_0_0.eot');src: url('fonts/2C53ED_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2C53ED_0_0.woff2') format('woff2'),url('fonts/2C53ED_0_0.woff') format('woff'),url('fonts/2C53ED_0_0.ttf') format('truetype');}
 
-body, html{
-	height:100%;
-	background:#fff;
-	font:400 16px "Open Sans", serif;
-	color:#3b3b3b;
-	padding:0;
-	margin:0;
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: 'AvenirLTStd-Light', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.75;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 a{
