@@ -1,5 +1,4 @@
 //* SETUP THE NAVIGATION LAYOUT
-
 .site-header {
   background-color: transperant;
   left: 0;
@@ -35,7 +34,7 @@
   line-height: 1;
   margin-bottom: 0;
   text-transform: uppercase;
-color: #fff;
+  color: #fff;
 }
 
 .site-description {
@@ -72,39 +71,33 @@ color: #fff;
   padding: 10px 12px;
   color: #fff;
 }
+
 .site-header.light .header-menu > li > a {
-    color: #222;
+  color: #222;
 }
 
 .front-page {
-    background-image: url('../img/bg.jpg');
-    background-attachment: fixed;
-    background-color: #fff;
-    background-position: 50% 0px;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size:    cover;
-    background-size:         cover;
-    padding-top: 60px;
-    clear: both;
-    width: 100%;
-}
-
-.front-page {
-    display: table;
-    overflow: hidden;
-    text-align: center;
-}
-
-.front-page .widget-area {
+  background-image: url('../img/bg.jpg');
+  background-attachment: fixed;
+  background-color: #fff;
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding-top: 60px;
+  clear: both;
+  width: 100%;
+  display: table;
+  overflow: hidden;
+  text-align: center;
+  .widget-area {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-}
-
-.front-page,
-.front-page h2,
-.front-page h4 {
+  }
+  color: #fff;
+  h2, h4 {
     color: #fff;
+  }
 }
-
