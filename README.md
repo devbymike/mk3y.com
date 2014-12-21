@@ -1,7 +1,7 @@
 #MK3Y.com
 --
 
-My personal blog :punch:. Handcrafted with :heart: using Jekyll. Currently hosted via [Github Pages](https://pages.github.com)
+My personal blog :punch:. Handcrafted with :heart: using Jekyll. Currently hosted via [Github Pages](https://pages.github.com). I use Cloudflare for DNS with a page rule to force `https://'`
 
 ##License
 
