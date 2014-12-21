@@ -1,3 +1,12 @@
+.bigAssHeader {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: #ccc;
+}
+
 .site-header::before, .site-inner::before, .wrap::before {
   content: " ";
   display: table;
@@ -48,6 +57,10 @@
   text-transform: uppercase;
 }
 
+.site-title.mike {
+    font-family: 'AvenirLTStd-Heavy', sans-serif;
+}
+
 .site-description {
   display: block;
   height: 0;
@@ -82,3 +95,37 @@
   padding: 10px 12px;
   color: #222;
 }
+
+
+.front-page {
+    background: url('../img/bg.jpg');
+    background-attachment: fixed;
+    background-color: #fff;
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size:    cover;
+    background-size:         cover;
+    padding-top: 60px;
+    clear: both;
+    width: 100%;
+}
+
+.front-page {
+    display: table;
+    overflow: hidden;
+    text-align: center;
+}
+
+.front-page .widget-area {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.front-page,
+.front-page h2,
+.front-page h4 {
+    color: #fff;
+}
+
