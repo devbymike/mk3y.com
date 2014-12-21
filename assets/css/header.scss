@@ -1,0 +1,84 @@
+.site-header::before, .site-inner::before, .wrap::before {
+  content: " ";
+  display: table;
+}
+
+.site-header::after, .site-inner::after, .wrap::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+//* SETUP THE NAVIGATION LAYOUT
+
+.site-header {
+  background-color: transperant;
+  left: 0;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  &.light {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.title-area {
+  float: left;
+  paddting-top: 8px;
+}
+
+.site-title {
+  font-family: 'Helevetica', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.site-description {
+  display: block;
+  height: 0;
+  margin-bottom: 0;
+  text-indent: -9999px;
+}
+
+.header-menu {
+  float: right;
+  line-height: 1;
+  > li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+//* Element Styling
+
+.front-page h2 {
+  font-family: 'Helevetica', sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.header-menu > li > a {
+  display: block;
+  font-family: 'Helevetica', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 10px 12px;
+  color: #222;
+}

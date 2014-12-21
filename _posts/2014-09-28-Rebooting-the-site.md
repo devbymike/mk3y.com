@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Rebooting The Site
-author: Mike
-permalink: /rebooting-the-site/
-categories: Motivation
-banner_image: "/media/desk.jpg"
-featured: true
-comments: true
 
-dsq_thread_id:
-  - 220131897
+title: Rebooting The Site
+permalink: /rebooting-the-site/
+banner_image: "/media/desk.jpg"
+
+categories: Projects
+
 ---
 
 
-As a professional front end developer, having a broken & crappy personal website has been somewhat of a thorn in my side. That thing I'm always meaning to get around to working on, but never do. And it certainly doesn't help me career-wise.
+As a professional full stack developer, having a broken & crappy personal website has been somewhat of a thorn in my side. That thing I'm always meaning to get around to working on, but never do. And it certainly doesn't help me career-wise. Not very 'professional'
+
+Back in 2009 when I launched myself as MK3Y, LLC I was blogging regularly.
 
 <!--more-->
 
