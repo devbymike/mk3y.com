@@ -14,7 +14,7 @@ permalink: pretty
 lsi: false
 
 # Pagination
-paginate: 10
+paginate: 7
 #paginate_path: "page:num"
 
 # Build settings
@@ -24,11 +24,8 @@ exclude:
   - CONTRIBUTING.md
   - README.md
   - package.json
-  - gulpfile.js
-  - node_modules
   - Gemfile
   - Gemfile.lock
-  - css
 
 # Theme Settings
 theme_reading_time: true
@@ -37,7 +34,6 @@ theme_always_show_nav: false
 # Extra gems to have fancy things.
 gems:
   - jekyll-sitemap
-  - jekyll-redirect-from
 
 # Asset Pipeline settings
 sass:
