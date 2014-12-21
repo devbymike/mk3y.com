@@ -1,18 +1,26 @@
 ---
-title: You Have to Make It Happen
-author: Mike
 layout: post
+
+title: You Have to Make It Happen
 permalink: /you-have-to-make-it-happen/
+
+hero: false
+hero_img:
+
+categories: Motivation
+comments: true
+
 dsq_thread_id:
   - 220131860
-categories:
-  - Motivation
+
 ---
 We’ve got a real problem in this country with people and what they believe. No I’m NOT talking politics. We’ve bread a culture that believes things should be handed to them, that they no longer have to work hard for success, but that it should be handed to them.
 
 This is a wrong way of thinking; one that needs to change. **If you want something, you’re going to have to go out and make it happen.**
 
 I’m learning this first hand. For years I talked about business and being successful. In reality I was waiting for success to land in my lap. I was hoping it would be handed to me with the least effort possible, and in turn my first couple of businesses were mediocre. I applied the least amount of effort to everything I did.
+
+<!--more-->
 
 And then one day a light bulb went off.
 

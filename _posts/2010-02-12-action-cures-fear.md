@@ -16,6 +16,8 @@ How do you face that fear?
 
 With **ACTION!**
 
+<!--more-->
+
 Stop thinking and trying to rationalize your fears and learn to take immediate action. If you’re afraid to talk to people, then start talking to people. Start by saying hello to random strangers where ever you go. The more action you take the more the fear will cease to be.
 
 When you take action you’ll begin to grow and your comfort zone will begin be stretched. If you really want to grow, get outside your comfort zone and stay there.

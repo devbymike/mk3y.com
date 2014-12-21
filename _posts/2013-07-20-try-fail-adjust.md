@@ -1,12 +1,18 @@
 ---
-title: 'TRY > FAIL > ADJUST'
-author: Mike
 layout: post
+
+title: 'TRY > FAIL > ADJUST'
 permalink: /try-fail-adjust/
+
+hero: false
+hero_img:
+
+categories: Motivation
+comments: true
+
 dsq_thread_id:
   - 220131885
-categories:
-  - Motivation
+
 ---
 I’m pretty sure I learned this little tidbit when I was involved with Quixtar, but it’s a pretty simple principle.
 

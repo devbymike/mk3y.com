@@ -4,7 +4,8 @@ layout: post
 title: 5 Reasons Not to Get a JOB
 permalink: /5-reasons-not-to-get-a-job/
 
-banner_image:
+hero: false
+hero_img:
 
 categories: Archived, Entrepreneurship
 comments: true

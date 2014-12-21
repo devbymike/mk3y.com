@@ -1,12 +1,18 @@
 ---
-title: Dream Big, Act Big
-author: Mike
 layout: post
+
+title: Dream Big, Act Big
 permalink: /dream-big-act-big/
+
+hero: false
+hero_img:
+
+categories: Motivation
+comments: false
+
 dsq_thread_id:
   - 220131897
-categories:
-  - Motivation
+
 ---
 It is a wonderful thing to dream, but it&#8217;s an even better thing to act upon those dreams. Throughout my life I&#8217;ve dreamed of a certain lifestyle, certain freedoms and the chance to do the extraordinary, but it wasn&#8217;t until after college that I realized dreams were just realities waited to be acted upon. This realization changed my life, up until about 21 I&#8217;d always assumed that you could *dream *but life happened to you regardless. This couldn&#8217;t be further from the truth and as I &#8216;wake up&#8217; more and more from the fog of &#8216;the real world&#8217; I see that your life can be as big as you dream it but your dreams can only be as big as you are willing to act upon.
 

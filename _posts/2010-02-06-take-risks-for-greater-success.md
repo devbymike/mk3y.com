@@ -9,7 +9,7 @@ categories:
 **Do you want more success?** Then you&#8217;re going to have to learn to [get outside your comfort zone][1] and start taking some risks! Rock Climbing is by nature a dangerous sport, but the pure thrill and rewards of scaling a mountain are well worth that risk.
 
 ***Often in our lives anything worth doing involves some level of risk***. Quiting your job to go start a business is risky, especially if you&#8217;ve got mouths to feed at home.  Just like in rock climbing, we can do things to minimize these risks, but ultimately, we are not fully in control.
-
+<!--more-->
 **You have got to realize you can not control every aspect of life.** But if you let that fear of not being in control immobilize you, you will deny yourself the rewards that can come from taking great
 
 risk and succeeding.

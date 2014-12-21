@@ -11,7 +11,7 @@ categories:
 I’m coming clean, I’m a Foursquare cheater.
 
 And why not? I personally think it&#8217;s funny that right now as of this posting I&#8217;m the mayor of places like the <a href="http://foursquare.com/venue/640387" rel="nofollow" target="_blank">Taj Mahal</a>, the <a href="http://foursquare.com/venue/485303" rel="nofollow" target="_blank">Pyrmaids</a> and the <a href="http://foursquare.com/venue/73484" target="_blank">PlayBoy Mansion</a>. Even thought I&#8217;ve never physically been to any of these places. TO be honest, cheating has become more and more fun.
-
+<!--more-->
 I was inspired by a guy called <a href="http://www.krazydad.com/blog/2010/02/mayor-of-the-north-pole/" rel="nofollow" target="_blank">Dr. Cheat</a> who also blogged about it and become the mayor of dozens of places. The problem with Foursquare.com and services like such as Gowalla.com is that there are holes in the validation system. And I found the biggest one of them all. The mobile website. I first learned about this from TechCrunch here: <a href="http://techcrunch.com/2010/02/16/foursquare-cheating/" rel="nofollow">http://techcrunch.com/2010/02/16/foursquare-cheating/</a> But you don&#8217;t need an API to check in to any place on planet earth, you can do it from your computer, so long as you use some logic.
 
 <a href="http://foursquare.com/mobile/venue/485303" rel="nofollow">http://foursquare.com/mobile/venue/485303</a> < Just use the mobile website.
