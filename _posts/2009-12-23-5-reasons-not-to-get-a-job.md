@@ -3,14 +3,10 @@ layout: post
 
 title: 5 Reasons Not to Get a JOB
 permalink: /5-reasons-not-to-get-a-job/
-author: Mike
 
-banner_image: "/media/desk.jpg"
+banner_image:
 
-categories: Archived, Enterpenuership
-comments: true
-
-featured: true
+categories: Archived, Entrepreneurship
 comments: true
 
 dsq_thread_id:

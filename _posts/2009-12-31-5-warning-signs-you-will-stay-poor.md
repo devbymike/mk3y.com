@@ -1,10 +1,14 @@
 ---
-title: 5 Warning Signs You Will Stay Poor
-author: Mike
 layout: post
+
+title: 5 Warning Signs You Will Stay Poor
 permalink: /5-warning-signs-you-will-stay-poor/
-categories:
-  - Archived
+
+banner_image: 
+
+categories: Archived, Money
+comments: false
+
 ---
 If you are living pay check to paycheck and hoping to one day be rich and debt free, consider these 5 Warning Signs that You Will Stay Poor.
 
@@ -17,7 +21,7 @@ If these <span style="color: #ff0000;"><strong>WARNING SIGNS</strong></span> app
     This one is a no brainier. **Every time you spend more money than you have earned, you are in debt.** If this is how you live, making $1.25 and spending a $1.50, you&#8217;ll always remain poor.</li> 
     *   ### Your wheels cost more than your car.
         
-        <img class="alignright size-thumbnail wp-image-374" title="Bling Bling" src="http://www.mikekey.com/romans/wp-content/assets/2009/12/Picture-198-150x150.jpg" alt="Bling Bling" width="195" height="195" />You invested $4,000 dollars on a car worth $800 bucks. **When your financial priorities are out of balance it is guaranteed that you will not be acquiring wealth anytime soon.**
+You invested $4,000 dollars on a car worth $800 bucks. **When your financial priorities are out of balance it is guaranteed that you will not be acquiring wealth anytime soon.**
         
         Other examples include: No money to fix your car, but you  bought a new plasma television. You can&#8217;t pay child support, but you bought an &#8217;09 Corvette Z06. The power company turned off your lights because you didn&#8217;t pay your bill, but you&#8217;re wearing 80 dollar jeans so your butt will look good when you go out to the club.</li> 
         *   ### You believe there is a Conspiracy to Keep You Poor and Stupid, Aka Blame &#8220;The Man&#8221;
