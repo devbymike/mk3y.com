@@ -128,7 +128,7 @@
 
 		h1 a{
 			position:relative;
-			padding:10px 0;
+			padding:0;
 			color:#262b30;
 			&:hover{
 				color:#007cc3;
@@ -143,15 +143,12 @@
 
 		time{
 			font-weight:600;
-			color:#026ed2;
-		}
-
-		i{
-			margin:0 5px;
+			color:#cc3333;
 		}
 
 		span{
 			color:#b6b6b6;
+            font-size: .75em;
 		}
 
 		p{
@@ -354,7 +351,7 @@
 	header{
 
 		h1{
-			margin:20px 0;
+			margin:0;
 		}
 
 		h2{
@@ -384,3 +381,10 @@
 	}
 }
 
+.post-nav {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    padding: 20px 0px;
+}

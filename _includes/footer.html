@@ -1,22 +1,35 @@
+<div class="connect">
+    
+</div>
 <footer class="wrapper">
-    <div class="smallnav">
-    	{% for page in site.pages %}
-        	{% if page.title %}<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> &bull;{% endif %}
-        {% endfor %}
-    </div>
     <div>
         Copyright &copy; <a href="{{ site.url }}/">{{ site.title }}</a>. 2014 &bull; All rights reserved.
         <span class="ghost">Proudly published with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.</span>
     </div>
 </footer>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script type="text/javascript">
+<script async src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "{{ "/assets/js/theme.js" | prepend: site.baseurl }}";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
+
+    <script defer type="text/javascript">
       var config = {
         'readingtime': {{ site.theme_reading_time }}
       };
     </script>
-    <script async type="text/javascript" src="{{ "/assets/js/theme.min.js" | prepend: site.baseurl }}"></script>
+    
+
 
   </body>
 </html>
