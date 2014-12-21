@@ -18,7 +18,7 @@ paginate: 10
 #paginate_path: "page:num"
 
 # Build settings
-timezone: America/Chicago
+timezone: America/New York
 future: false
 exclude:
   - CONTRIBUTING.md
