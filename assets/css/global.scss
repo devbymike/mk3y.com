@@ -1,12 +1,8 @@
-@import url("//hello.myfonts.net/count/2ba6dd");
-@import url("//hello.myfonts.net/count/2ba72f");
-@import url("//hello.myfonts.net/count/2c53ea");
-@import url("//hello.myfonts.net/count/2c53ed");
-  
-@font-face {font-family: 'AvenirLTStd-Light';src: url('fonts/2BA6DD_0_0.eot');src: url('fonts/2BA6DD_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BA6DD_0_0.woff') format('woff'),url('fonts/2BA6DD_0_0.ttf') format('truetype');}
-@font-face {font-family: 'AvenirLTStd-Medium';src: url('fonts/2BA72F_0_0.eot');src: url('fonts/2BA72F_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2BA72F_0_0.woff') format('woff'),url('fonts/2BA72F_0_0.ttf') format('truetype');}
-@font-face {font-family: 'AvenirLTStd-Heavy';src: url('fonts/2C53EA_0_0.eot');src: url('fonts/2C53EA_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2C53EA_0_0.woff2') format('woff2'),url('fonts/2C53EA_0_0.woff') format('woff'),url('fonts/2C53EA_0_0.ttf') format('truetype');}
-@font-face {font-family: 'AvenirLT-Black';src: url('fonts/2C53ED_0_0.eot');src: url('fonts/2C53ED_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/2C53ED_0_0.woff2') format('woff2'),url('fonts/2C53ED_0_0.woff') format('woff'),url('fonts/2C53ED_0_0.ttf') format('truetype');}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+}
 
 body {
     background-color: #fff;
@@ -18,6 +14,32 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
+
+.clearfix::after, 
+.entry::after, 
+.entry-content::after, 
+.site-container::after, 
+.site-footer::after, 
+.site-header::after, 
+.site-inner::after, 
+.wrap::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+.clearfix::before, 
+.entry::before, 
+.entry-content::before, 
+.site-container::before, 
+.site-footer::before, 
+.site-header::before, 
+.site-inner::before, 
+.wrap::before {
+    content: " ";
+    display: table;
+}
+
+
 
 a{
 	font-weight:600;
@@ -161,6 +183,16 @@ input:not([type=submit]):not([type=file]):active, input:not([type=submit]):not([
 	float:right;
 }
 
+
+
+
+
+
+
+
+
+
+
 footer{
 
 	padding:25px 0;
@@ -186,59 +218,4 @@ footer{
 
 }
 
-.notification {
-	margin-top:50px;
-	background:#1c78be;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	border-radius:4px;
-	padding:20px 25px;
-}
-
-.notification .ntitle {
-	color:#c4e2f8;
-	font:700 18px 'Open Sans',Serif;
-	padding-right:20px;
-	border-right:2px solid #3285c4;
-}
-
-.notification .message {
-	color:#fff;
-	font:700 18px 'Open Sans',Serif;
-	padding-left:20px;
-}
-
-.notification a {
-	position:relative;
-	margin-top:-3px;
-	display:inline-block;
-	float:right;
-	color:#fff;
-	background:#0b4673;
-	-webkit-border-radius:90px;
-	-moz-border-radius:90px;
-	border-radius:90px;
-	padding:4px 10px 3px;
-}
-
-.notification a i {
-	margin-top:3px;
-}
-
-.posts article header h2 a {
-	color:#D5D5D5;
-}
-
-.posts article header h2 a:hover {
-	color:#B3B3B3;
-}
-
-.cover header h2 a {
-	color:#e4e4e4;
-	opacity:.6;
-}
-
-.cover header h2 a:hover {
-	opacity:1;
-}
 
