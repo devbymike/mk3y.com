@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
+
+<!-- Displays Hero Image & Intro if on the homepage -->
 {% if paginator.next_page == 2 %}
 <div class="front-page image-section">
     <div class="widget-area">
         <div class="wrap">
             <section>
                 <div>
-                    <h4>Mike Key</h4>
+                    <h4>Airstream Traveling Programer</h4>
 
                     <div>
                         <h2>Gentlementmen<br>
                         Traveler</h2>
 
-                        <p><a class="button" href="#">Sign
-                        Up Now</a> <a class="button clear" href=
+                        <p><a class="button clear" href=
                         "#postindex">Learn
                         More</a></p>
                     </div>
@@ -25,7 +26,7 @@ layout: default
 </div>
 {% endif %}
 
-<section class="posts postindex wrapper">
+<section id="postindex" class="posts postindex wrapper">
 
 	{% for post in paginator.posts %}
 		<article class="post">
