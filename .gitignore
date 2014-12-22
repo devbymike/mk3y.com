@@ -2,3 +2,10 @@ _site
 _drafts
 .sass-cache
 .DS_Store
+
+_posts/.DS_Store
+_includes/.DS_Store
+_layouts/.DS_Store
+_plugin/.DS_Store
+assets/.DS_Store
+media/.DS_Store
