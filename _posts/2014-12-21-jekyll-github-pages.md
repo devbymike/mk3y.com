@@ -20,7 +20,7 @@ Having to constantly install security updates every other week just became one m
 
 So when I learned about using Jekyll with Github pages from my coworker [@Joshtronic](3), it seemed like a great alternative. Jekyll is a Ruby based gem that compiles down into flat static files. Its simplicity makes backups easier and avoids all the common security concerns caused by running dynamic websites. Writing posts in Markdown is fast and efficient.
 
-The fact that GitHub provides [free hosting for Jekyll blogs[(http://pages.github.com/) is just icing on the cake. 
+The fact that GitHub provides [free hosting for Jekyll blogs](http://pages.github.com/) is just icing on the cake. 
 
 So I made the jump to Jekyll. Migrated my old posts from WordPress to Markdown, and my comments to Disqus.
 
