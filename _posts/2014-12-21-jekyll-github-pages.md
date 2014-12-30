@@ -1,14 +1,28 @@
-Just recently I migrated this website from Wordpress to [Github pages](1) using [Jekyll](2). To date I am pleased with the transition. 
+---
+layout: post
+ 
+title: "Jekyll + Github Pages > WordPress"
+permalink: /jekyll-github-pages
+ 
+hero: false
+hero_image: "/media/jekyll.jpg"
 
-So why ditch WordPress?
+category: experiments
+comments: false
+ 
+---
+
+ Just recently I migrated this website from Wordpress to [Github pages](1) using [Jekyll](2). To date I am pleased with the transition. 
+
+##So why ditch WordPress?
 
 Over time, I began to distain how bloated Wordpress had become. The WYSIWYG editor seems to vomit random HTML onto your page with no control over its syntax. The plugin environment is a whole story unto itself and the source of huge security concerns.
 
 Needing to install security updates every other week just became one more annoyance to deal with. Backing up WordPress is itself a pain, that always left me wondering and guessing. The performance issues with WordPress are well documented. The bigger your site gets, the worse it suffers without taking the proper steps to optimize things. At the end of the day, WordPress just required a ton of overhead.
 
-And finally a point of contention. WordPress seems to inspire developer/creator laziness. The answer to every WordPress related question is always 'Install XYZ plugin'. Expect a detailed rant posting about this in the future.
+A point of contention for myself; WordPress seems to inspire developer/creator laziness. The answer to every WordPress related question is always 'Install XYZ plugin'. Expect a detailed rant posting about this in the future.
 
-Enter Jekyll
+##Enter Jekyll
 
 In the past I had tried other static site generators, such as Kirby & Statamic. [@Joshtronic](3) first peeked my interest in using Jekyll with Github pages. After a hard look I dove right in. 
 
