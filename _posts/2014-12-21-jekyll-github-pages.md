@@ -5,7 +5,7 @@ title: "Jekyll + Github Pages > WordPress"
 permalink: /jekyll-github-pages
  
 hero: true
-hero_image: "/media/jekyll-vs-wordpress.jpg"
+hero_img: "/media/jekyll-vs-wordpress.jpg"
 
 category: experiments
 comments: false
