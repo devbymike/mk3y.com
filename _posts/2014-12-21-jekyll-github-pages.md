@@ -4,8 +4,8 @@ layout: post
 title: "Jekyll + Github Pages > WordPress"
 permalink: /jekyll-github-pages
  
-hero: false
-hero_image: "/media/jekyll.jpg"
+hero: true
+hero_image: "/media/jekyll-vs-wordpress.jpg"
 
 category: experiments
 comments: false
