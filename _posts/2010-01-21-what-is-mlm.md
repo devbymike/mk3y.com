@@ -12,11 +12,7 @@ slider_thumbnail:
 sslider_nolink:
   - 1
 dsq_thread_id:
-  - 220131732
-onpageseo_post_meta_data:
-  - 'a:2:{s:3:"mlm";a:26:{s:7:"Keyword";s:3:"mlm";s:9:"Permalink";s:1:"1";s:12:"KeywordTitle";s:1:"0";s:21:"KeywordTitleBeginning";s:1:"0";s:10:"TitleWords";s:1:"1";s:10:"TitleChars";s:1:"0";s:18:"DescriptionMetaTag";s:1:"1";s:24:"DescriptionMetaTagLength";s:1:"1";s:27:"DescriptionMetaTagBeginning";s:1:"0";s:15:"KeywordsMetaTag";s:1:"1";s:9:"PostWords";s:1:"1";s:19:"KeywordDensityScore";s:4:"0.15";s:14:"KeywordDensity";s:1:"0";s:13:"First100Words";s:1:"0";s:12:"Last100Words";s:1:"1";s:18:"ExternalAnchorText";s:1:"0";s:18:"InternalAnchorText";s:1:"0";s:2:"H1";s:1:"0";s:11:"H1Beginning";s:1:"0";s:2:"H2";s:1:"0";s:2:"H3";s:1:"0";s:8:"ImageALT";s:1:"1";s:4:"Bold";s:1:"0";s:6:"Italic";s:1:"0";s:9:"Underline";s:1:"0";s:10:"TotalScore";s:5:"34.78";}s:25:"onpageseo_global_settings";a:15:{s:11:"MainKeyword";s:3:"mlm";s:17:"SecondaryKeywords";s:0:"";s:10:"FleschEase";s:4:"77.5";s:11:"FleschLevel";s:11:"Fairly Easy";s:16:"FleschGradeLevel";s:3:"5.8";s:15:"GunningFogScore";s:3:"8.2";s:16:"ColemanLiauIndex";s:3:"8.1";s:9:"SMOGIndex";s:1:"6";s:25:"AutomatedReadabilityIndex";s:3:"4.5";s:13:"SentenceCount";s:3:"151";s:9:"WordCount";s:4:"2013";s:23:"AverageWordsPerSentence";s:2:"13";s:23:"AverageSyllablesPerWord";s:4:"1.37";s:18:"ComplexWordsNumber";s:3:"151";s:22:"ComplexWordsPercentage";s:4:"7.38";}}'
-standard_seo_post_level_layout:
-  - 
+  - 22013173
 standard_link_url_field:
   - 
 standard_seo_post_meta_description:
@@ -51,9 +47,10 @@ Carefully thinking over my reply, I realized this was a ploy to get me to come s
 From the look he gave me, I knew I had just sunk his battleship.
 
 Has this happened to you? Have you been approached by some young adult, who appears well dressed and genuinely polite?  
+
 <!--more-->
 
-<img class="alignleft size-medium wp-image-470" title="slide_7" src="http://www.mikekey.com/romans/wp-content/assets/2010/01/slide_7-300x201.jpg" alt="" width="300" height="201" />If you where genuinely dumb enough to say yes, chances are you&#8217;ve given your phone number to an IBO. He or she will most likely call you within 1 to 2 days to setup a time to do an in-person meeting. The entire point of this quick meeting is to gauge your interest in coming to see his &#8220;business plan&#8221; and meet his &#8220;business partners&#8221;. (Just know that I&#8217;ll be using the word &#8220;BUSINESS&#8221; loosely.) During this entire process the individual will pretend like they&#8217;re being selective about who they let in on their opportunity. (It&#8217;s a lie, they&#8217;re desperate and need you to succeed.)
+If you where genuinely dumb enough to say yes, chances are you&#8217;ve given your phone number to an IBO. He or she will most likely call you within 1 to 2 days to setup a time to do an in-person meeting. The entire point of this quick meeting is to gauge your interest in coming to see his &#8220;business plan&#8221; and meet his &#8220;business partners&#8221;. (Just know that I&#8217;ll be using the word &#8220;BUSINESS&#8221; loosely.) During this entire process the individual will pretend like they&#8217;re being selective about who they let in on their opportunity. (It&#8217;s a lie, they&#8217;re desperate and need you to succeed.)
 
 If you&#8217;ve already allowed this individual to schedule a time to come meet you, I&#8217;ll save you the trouble now. He/She will come over, show you some fancy little brochure and ask if you are interested in making an extra two to three thousand dollars. If you say yes, then chances are you are going to an open meeting where some person will speak to you about how to make money while drawing circles on a white board.
 
