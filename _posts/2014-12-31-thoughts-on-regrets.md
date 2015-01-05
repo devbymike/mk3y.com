@@ -13,18 +13,20 @@ comments: false
 ---
 
 
-Regret is something we all experience from time to time.
+To much time, spent regretting things not done. That's how I look back at 2014.
 
-It feels since I hit 32 that I reflect on regrets more often than not. A lot has happened this year, and I still have many things I regret no accomplishing. For all I have accomplished, it still feels like I haven't accomplished much at all.
+For all I accomplished this year, there are things I regret not getting done. Choices made that have delayed goals and dreams. 
 
-I have big plans for my family for the year 2015. But as I think about what needs to get done, I regret all that I haven't accomplished.
+Failure to get my weight under control. Failure to meet my goals for my freelance business. Failure to get this site back up in order. Failure with our BoldAndAdventurous project. And a dozen other minor personal failures this year.
 
-This year, I failed to get my weight back under control. It's fluctuated all year, from 170lbs to 205lbs. I've failed to meet my goals and deadline for this site. Failed to get my freelance business back off the ground. Failed to get our blog BoldAndAdventurous off the ground beyond two posts.
+Most of these failures have all been within my control, and are failures of 'LACK OF ACTION'.
 
-Regrets has a way of keeping you from accomplishing things if you spend to much time dwelling on your failures. Spending time on regrets prevents you from moving forward.
+The worst part of this cycle is, spending time with your regrets, by not taking action.
 
-Rather than focusing my energies to dust off my feet, and get things done. I'm spending my energy regretting what is not done.
+Rather than focusing my energies to dust off my feet, and get things done. I’m spending my energy regretting what is not done.
 
 With the start of the new year, I want to refocus my efforts, to not dwell on regrets. To focus on getting things done.
 
-Here's to the New Year and saying good bye to regrets.
+Here’s to the New Year and saying good bye to regrets.
+
+And here's to a 2015 of NO REGRETS.
