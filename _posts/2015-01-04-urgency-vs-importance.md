@@ -12,8 +12,6 @@ comments: false
 
 ---
 
-Urgency Vs Importance
-
 As of late I have been stressed out, suffering from a lot of self inflicted regret. Regret that I'm not getting things done.
 
 Not getting things done has been a bit of a problem in 2014. 
