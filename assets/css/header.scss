@@ -2,10 +2,10 @@
 .site-header {
   background-color: transperant;
   left: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,11 +19,13 @@
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
+  &.light .site-title a {
+    color: #000;
+  }
 }
 
 .title-area {
   float: left;
-  paddting-top: 8px;
 }
 
 .site-title {
@@ -35,7 +37,11 @@
   margin-bottom: 0;
   text-transform: uppercase;
   color: #fff;
+    & a {
+        color:#fff;
+    }
 }
+
 
 .site-description {
   display: block;
