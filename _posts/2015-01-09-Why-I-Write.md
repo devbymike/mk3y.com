@@ -24,9 +24,9 @@ I’m not smart enough to figure out everything myself, so I try to master the b
 
 The best way to do this is to read a lot. And try new things, with a heavy dose of self experimentation. Along the way I write about what I’m learning and doing.
 
-Why do this? Charlie Munger said it best:
+Why do this? *Charlie Munger* said it best:
 
-"The best thing a human being can do is to help another human being know more."
+> The best thing a human being can do is to help another human being know more.
 
 
 
