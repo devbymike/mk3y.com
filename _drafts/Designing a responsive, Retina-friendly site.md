@@ -1,1 +1,0 @@
-Designing a responsive, Retina-friendly site
