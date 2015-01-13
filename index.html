@@ -37,6 +37,7 @@ layout: default
 				<div class="excerpt">
 					{% if post.content contains '<!--more-->' %}
 						{{ post.content | split:'<!--more-->' | first }}
+                        <a href="{{ BASE_PATH }}{{ post.url }}">continue reading >></a>
 					{% else %}
 						{{ post.content }}   
 					{% endif %}
