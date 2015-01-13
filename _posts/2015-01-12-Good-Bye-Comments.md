@@ -9,8 +9,8 @@ hero_image: ""
 
 category: musings
 
---
-GoodBye Blog Comments
+---
+
 
 Recently I switch from WordPress to Jekyll.  During that time this site has been without comments. My intent moving forward was to move some of those conversations Disqus.
 
