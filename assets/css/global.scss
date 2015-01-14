@@ -43,7 +43,7 @@ body {
 
 a{
 	font-weight:600;
-	color:#cc3333;
+	color:#EF610F;
 	text-decoration:none;
 	border-bottom:3px solid transparent;
 	@include transition_two(border 0.2s, color 0.2s ease-out);
@@ -136,18 +136,18 @@ input:not([type=submit]):not([type=file]){
 	@include transition(all 0.2s ease-out);
 }
 input:not([type=submit]):not([type=file]):active, input:not([type=submit]):not([type=file]):focus{
-	border:2px solid #cc3333;
+	border:2px solid #EF610F;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #cc3333;
+    background: #EF610F;
     text-shadow: none;
 }
 
 ::selection {
     color: #fff;
-    background: #cc3333;
+    background: #EF610F;
     text-shadow: none;
 }
 
