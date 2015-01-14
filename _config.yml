@@ -1,39 +1,32 @@
+# Getting Started
 title: 	"Mike Key"
-email: 	"mike@mk3y.com"
-description: "Musings of Michael Key"
-baseurl: ""
-url: "http://mk3y.com"
+description: "Mike Key is a freelance full-stack developer. This is a collection of writings on web development, enterpernuership and personal development."
+email:  "mike@mk3y.com"
 
-# Development settings
-development: false
-debug: false
+# Site Config
+baseurl: ""
+url: "https://mk3y.com"
 
 # Display settings
 markdown: kramdown
+highlighter: pygments
 permalink: pretty
 lsi: false
-
-# Pagination
 paginate: 5
-#paginate_path: "page:num"
+paginate_path: "page:num"
+
+# Extra Gems
+gems:
+  - jekyll-sitemap
 
 # Build settings
 timezone: America/New York
-future: false
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
 
-# Theme Settings
-theme_reading_time: true
-
-
-# Extra gems to have fancy things.
-gems:
-  - jekyll-sitemap
-
-# Asset Pipeline settings
+# Assets Pipeline
 sass:
  sass_dir: "assets/css/"
  style: :compressed
