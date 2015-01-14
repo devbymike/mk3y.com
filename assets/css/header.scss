@@ -1,5 +1,15 @@
 //* SETUP THE NAVIGATION LAYOUT
 .site-header {
+  background-color: transperant;       
+  left: 0;     
+  padding-bottom: 10px;        
+  padding-left: 40px;      
+  padding-right: 40px;     
+  padding-top: 10px;       
+  position: fixed;     
+  top: 0;      
+  width: 100%;     
+  z-index: 999;
   &.light {
     background-color: #fff;
     border-bottom: 1px solid #eee;
@@ -14,10 +24,29 @@
   }
 }
 
+.title-area {       
+  float: left;     
+}
+
 .site-title {
+  font-family: 'Helevetica', sans-serif;      
+  font-size: 24px;     
+  font-weight: normal;     
+  letter-spacing: 1px;     
+  line-height: 1;      
+  margin-bottom: 0;        
+  text-transform: uppercase;       
+  color: #fff;
     & a {
         color:#fff;
     }
+}
+
+.site-description {     
+  display: block;      
+  height: 0;       
+  margin-bottom: 0;        
+  text-indent: -9999px;        
 }
 
 .header-menu {
