@@ -19,16 +19,11 @@ layout: default
 </div>
 {% endif %}
 
-<section id="postindex" class="posts postindex wrapper">
+<div id="postindex" class="posts postindex wrapper">
 
 	{% for post in paginator.posts %}
 		<article class="post">
 			<header>
-				<h2>
-					{% for category in post.categories %}
-					{{ category }} 
-					{% endfor %}
-				</h2>
 				<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 				<span>
 					Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>.
@@ -41,10 +36,15 @@ layout: default
 						{{ post.content }}   
 					{% endif %}
 				</div>
+                <span>
+                    {% for category in post.categories %}
+                    {{ category }} 
+                    {% endfor %}
+                </span>
 			</header>
 		</article>
 	{% endfor %}
 
 	{% include pagination.html %}
 
-</section>
+</div>
