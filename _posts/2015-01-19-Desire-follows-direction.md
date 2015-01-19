@@ -19,7 +19,7 @@ Ask yourself, have you ever felt like not doing something, but you did it anyway
 
 That’s emotion following direction. The plain truth is, that without direction your emotional state will be all over the place.
 
-Take action in the direct you want to go and your feelings will follow.
+Take action in the direction you want to go and your feelings will follow.
 
 Easy sage advice; but implementation takes a bit of work, grit and determination.
 
