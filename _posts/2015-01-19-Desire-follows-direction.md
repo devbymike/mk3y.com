@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: “Desire Follows Direction"
+title: "Desire Follows Direction"
 permalink: /desire-follows-direction
 
 hero: false
