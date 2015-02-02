@@ -12,7 +12,7 @@ comments: false
 
 ---
 
-Being able to tackle a task without self doubt, or backing down is something I think everyone wants to be able to do. And that’s the core idea behind Julien Smith’s book “<a target=“_blank” href="http://www.amazon.com/gp/product/B00NLJHGOA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NLJHGOA&linkCode=as2&tag=boldadventcom-20&linkId=TB4M63W7P6RBFTTW">The Flinch</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=boldadventcom-20&l=as2&o=1&a=B00NLJHGOA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />”.
+Being able to tackle a task without self doubt, or backing down is something I think everyone wants to be able to do. And that’s the core idea behind Julien Smith’s book "<a href="http://www.amazon.com/gp/product/B00NLJHGOA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NLJHGOA&linkCode=as2&tag=boldadventcom-20&linkId=TB4M63W7P6RBFTTW" target="_blank">The Flinch</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=boldadventcom-20&l=as2&o=1&a=B00NLJHGOA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />".
 
 ## What is the Flinch?
 
@@ -40,4 +40,4 @@ Julien refers to this as our defective “Defective Alarm System” that remains
 
 The rest of the book goes into further detail about how to recognize your flinch and over come it. And the key to doing is recognizing your own flinch.
 
-The book is an excellent read, that one can read in single sitting. I highly recommend picking up a copy of “<a target=“_blank” href="http://www.amazon.com/gp/product/B00NLJHGOA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NLJHGOA&linkCode=as2&tag=boldadventcom-20&linkId=TB4M63W7P6RBFTTW">The Flinch</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=boldadventcom-20&l=as2&o=1&a=B00NLJHGOA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />” and reading it for yourself.
+The book is an excellent read, that one can read in single sitting. I highly recommend picking up a copy of "<a href="http://www.amazon.com/gp/product/B00NLJHGOA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00NLJHGOA&linkCode=as2&tag=boldadventcom-20&linkId=TB4M63W7P6RBFTTW" target="_blank">The Flinch</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=boldadventcom-20&l=as2&o=1&a=B00NLJHGOA" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />" and reading it for yourself.
