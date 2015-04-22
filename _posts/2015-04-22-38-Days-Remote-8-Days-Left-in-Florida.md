@@ -16,7 +16,9 @@ I have been working remote now for 38 week days. The experience has been extreme
 
 We’re moving from Florida in 8 days! Yes!
 
-We sold all our stuff and moved out of our home.We purchased a Ram truck and Airstream travel trailer in August for this journey.
+We have been planning and dreaming of doing this since last June.
+
+We sold all our stuff and moved out of our home. We purchased a Ram truck last July and an Airstream travel trailer last August for this journey.
 
 We’re heading North to visit our families before heading in the direction of our hearts desires; WEST. 
 
@@ -35,5 +37,3 @@ For example, I suspect we’re going to be in Utah for a couple of months. We vi
 But as much as we love red rock, we love snow capped mountains and aspen forests too.
 
 Colorado, Wyoming, Montana … I could picture our future lives in any one of those states.
-
-Until we settle somewhere, we’ll have a tiny house and big backyard.
