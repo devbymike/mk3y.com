@@ -2,20 +2,7 @@
 layout: default
 ---
 
-<!-- Displays Hero Image & Intro if on the homepage -->
-{% if paginator.next_page == 2 %}
-<div class="front-page image-section">
-    <div class="wrap">
-        <section>
-            <h2>CODE & ADVENTURE</h2>
-            <h4>Explore. Read. Lift. Write. Code</h4>
-        </section>
-    </div>
-</div>
-{% endif %}
-
 <div id="postindex" class="posts postindex wrapper">
-
 	{% for post in paginator.posts %}
 		<article class="post">
 			<header>
@@ -39,7 +26,5 @@ layout: default
 			</header>
 		</article>
 	{% endfor %}
-
 	{% include pagination.html %}
-
 </div>

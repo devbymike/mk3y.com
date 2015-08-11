@@ -1,108 +1,17 @@
-//* SETUP THE NAVIGATION LAYOUT
 .site-header {
-  background-color: transperant;       
-  left: 0;     
-  padding-bottom: 10px;        
-  padding-left: 40px;      
-  padding-right: 40px;     
-  padding-top: 10px;       
-  position: fixed;     
-  top: 0;      
-  width: 100%;     
-  z-index: 999;
-  &.light {
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  &.light .site-title a {
-    color: #000;
-  }
+    display: none;
 }
-
-.title-area {       
-  float: left;     
-}
-
-.site-title {
-  font-family: 'Helevetica', sans-serif;      
-  font-size: 24px;     
-  font-weight: normal;     
-  letter-spacing: 1px;     
-  line-height: 1;      
-  margin-bottom: 0;        
-  text-transform: uppercase;       
-  color: #fff;
-    & a {
-        color:#fff;
+.hero-image {
+    position: relative;
+     img {
+    max-width:100%;
+    height:auto;
     }
-}
-
-.site-description {     
-  display: block;      
-  height: 0;       
-  margin-bottom: 0;        
-  text-indent: -9999px;        
-}
-
-.header-menu {
-  float: right;
-  line-height: 1;
-  > li {
-    list-style-type: none;
-    display: inline-block;
-    text-align: left;
-  }
-}
-
-//* Element Styling
-
-.front-page h2 {
-  font-family: "Playfair Display", sans-serif;
-  font-size: 48px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-.header-menu > li > a {
-  display: block;
-  font-family: 'Helevetica', sans-serif;
-  font-size: 16px;
-  font-weight: normal;
-  padding: 10px 12px;
-  color: #fff;
-}
-
-.site-header.light .header-menu > li > a {
-  color: #222;
-}
-
-.front-page {
-  background-image: url('https://lh5.googleusercontent.com/-jEPk6jDgeHc/VLSIwdBR0jI/AAAAAAAADQw/ul6pwpTEXHA/w914-h744-no/workbench.jpg');
-  background-attachment: fixed;
-  background-color: #fff;
-  background-position: 50% 0px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  padding-top: 60px;
-  clear: both;
-  width: 100%;
-  display: table;
-  overflow: hidden;
-  text-align: center;
-  .widget-area {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-  }
-  color: #fff;
-  h2, h4 {
-    color: #fff;
-  }
+    .wrap {
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
 }

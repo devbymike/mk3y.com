@@ -1,3 +1,6 @@
+#Dev Mode?
+development: true
+
 # Getting Started
 title: 	"CODE & ADVENTURE"
 description: "Mike Key is a freelance full-stack developer. This is a collection of writings on web development, enterpernuership and personal development."
@@ -7,13 +10,20 @@ email:  "mike@mk3y.com"
 baseurl: ""
 url: "https://mk3y.com"
 
-# Display settings
+# Dependencies
 markdown: kramdown
 highlighter: pygments
+
+# Permalinks
 permalink: pretty
-lsi: false
+
+#Display Settings
 paginate: 5
 paginate_path: "page:num"
+
+# Custom vars
+icon:       /assets/img/icon.png
+cover:      /assets/img/bg.jpg"
 
 # Extra Gems
 gems:

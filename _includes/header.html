@@ -1,29 +1,31 @@
-{% if paginator.next_page == 2 %}
-
-
-{% else %}
-<header class='site-header' itemscope='itemscope' itemtype='http://schema.org/WPHeader' role='banner' >  
-        <!-- SITE TITLE -->      
-        <div class='title-area'>
-            <h1 class='site-title' itemprop='headline'>
-                <a href='http://mk3y.com'>MK</a>
-            </h1>
-            <h2 class='site-description' itemprop='description'>Airstream traveling full stack coder</h2>
-        </div>
-        <!-- PRIMARY NAVIGATION -->
-        <nav class='nav-primary' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>            
-            <div class='responsive-menu-icon'></div>
-                <ul class='header-menu'>
-                    <li>
-                        <a href='https://mk3y.com/about/'>About</a>
-                    </li>
-                    <li>
-                        <a href='https://mk3y.com/'>Writings</a>
-                    </li>
-                </ul>
-        </nav>
-
+<header class="site-header">  
+    <!-- SITE TITLE -->      
+    <div class="title-area">
+        <h1 class="site-title">
+            <a href="http://mk3y.com">MK</a>
+        </h1>
+        <h2 class="site-description" >Airstream traveling full stack coder</h2>
+    </div>
+    <!-- PRIMARY NAVIGATION -->
+    <nav class="nav-primary">            
+        <div class="responsive-menu-icon"></div>
+        <ul class="header-menu">
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            <li>
+                <a href="/">Writings</a>
+            </li>
+        </ul>
+    </nav>
 </header>
-
-
-{% endif %}
+<!-- HERO IMAGE -->
+<div class="hero-image">
+    <img src="{% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %}" alt="Mike Key">
+    {% if paginator.posts %}
+    <div class="wrap">
+        <h2>Mike Key</h2>
+        <h4>Explore. Read. Lift. Write. Code</h4>
+    </div>
+    {% endif %}
+</div>
