@@ -20,6 +20,8 @@ When our first daughter was born, my wife and I began to reevaluate the directio
 
 ###MEDICORE.
 
+<!--more-->
+
 We didn’t want to just live for the weekend, ship our kids off to day care and do the suburbia thing. 
 
 During my wife’s maternity leave it became clear she did not want to go back to work. I was completely against shipping our child off to some day care. We were in agreement, she’d stay home.

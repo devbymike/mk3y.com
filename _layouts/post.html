@@ -2,64 +2,26 @@
 layout: default
 ---
 
-<!-- Displays Hero Image if Hero == True -->
-<!-- {% if page.hero == true %}
-<div class="front-page image-section" style="background-image:url('{{ page.hero_img }}');">
-    <div class="widget-area">
-        <header class="wrapper">
-            <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-            <h2>
-                {% for category in page.categories %}
-                    {{ category }} 
-                {% endfor %}
-            </h2>
-            <span>
-                <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>.
-            </span>
-        </header>
-        <i class="fa fa-chevron-down movedown"></i>
-    </div>
-</div>
-{% endif %} -->
-
-<!-- Displays The Post -->
-<section class="posts wrapper">
+<section class="wrap post-content">
     <article class="post">
-    <!-- Displays Post Meta if Hero == False -->
-    {% if page.hero == false %}     
-        <header>
-            <div class="feature"><span>Featured</span><i class="fa fa-bookmark fa-lg"></i></div>
-
-            <h1 id="posttitle"><a href="#">{{ page.title }}</a></h1>
-            <h2>
-                {% for category in page.categories %}
-                    {{ category }} 
-                {% endfor %}
-            </h2>
-            <span>
-                <i class="fa fa-clock-o"></i> <time datetime="{{ page.date| date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>.
-            </span>
-        </header>
-    {% endif %}
-
         <section class="postbody">
             {{ content }}
         </section>
-
     </article>
-
 </section>
-<div class="wrapper">
-<div class="post-nav">
-  {% if page.previous.url %}
-  <div class="left">
-        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
-  </div> 
-  {% endif %} 
-  {% if page.next.url %} 
-  <div class="right">
-        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
-  </div>
-  {% endif %}
+
+<div class="wrap">
+    <div class="post-nav">
+    {% if page.previous.url %}
+        <div class="left">
+            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
+        </div> 
+    {% endif %} 
+    
+    {% if page.next.url %} 
+        <div class="right">
+            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
+        </div>
+    {% endif %}
   </div> 
 </div>

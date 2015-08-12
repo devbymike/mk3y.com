@@ -1,31 +1,26 @@
-<header class="site-header">  
-    <!-- SITE TITLE -->      
-    <div class="title-area">
-        <h1 class="site-title">
-            <a href="http://mk3y.com">MK</a>
-        </h1>
-        <h2 class="site-description" >Airstream traveling full stack coder</h2>
-    </div>
-    <!-- PRIMARY NAVIGATION -->
-    <nav class="nav-primary">            
-        <div class="responsive-menu-icon"></div>
-        <ul class="header-menu">
+<header role="banner" class="header">
+    <nav role="navigation" class="navigation">
+        <ul class="wrapper">
             <li>
-                <a href="/about/">About</a>
+                <a href="/">MK</a>
             </li>
             <li>
-                <a href="/">Writings</a>
+                <div class="menu_button">
+                    <span class="menu_button-bar"></span>
+                    <span class="menu_button-bar"></span>
+                    <span class="menu_button-bar"></span>
+                </div>
             </li>
         </ul>
     </nav>
+
+    <nav role="menu" class="menu">
+        <div class="center">
+            <ul class=" wrapper">
+                <li><a href="#" class="ajaxload">HOME</a></li>
+                <li><a href="#" class="ajaxload">ABOUT ME</a></li>
+                <li><a href="#" class="ajaxload">BOLD&ADVENTUROUS</a></li>
+            </ul>
+        </div>
+    </nav>
 </header>
-<!-- HERO IMAGE -->
-<div class="hero-image">
-    <img src="{% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %}" alt="Mike Key">
-    {% if paginator.posts %}
-    <div class="wrap">
-        <h2>Mike Key</h2>
-        <h4>Explore. Read. Lift. Write. Code</h4>
-    </div>
-    {% endif %}
-</div>

@@ -1,0 +1,31 @@
+<!-- HOMEPAGE HERO IMAGE & INTRO -->
+{% if paginator.posts %}
+<div class="hero-image" style="background-image:url('{{ site.cover }}');">  
+    <div class="wrap">
+        <div class="introText">
+            <h2>{{ site:title }}</h2>
+            <h4>{{ site:tagline }}</h4>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- POST HERO IMAGE AND TITLE -->
+{% if page.hero == true %}
+<div class="hero-image" style="background-image:url('{{ page.hero_img }}');">
+    <header class="wrap">
+        <div class="introText">
+            <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+            <h4>
+                Published: <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>.
+            </h4>
+            <span>
+                {% for category in page.categories %}
+                    Filed under: {{ category }} 
+                {% endfor %}
+            </span>
+        </div>
+    </header>
+    <i class="fa fa-chevron-down movedown"></i>
+</div>
+{% endif %}

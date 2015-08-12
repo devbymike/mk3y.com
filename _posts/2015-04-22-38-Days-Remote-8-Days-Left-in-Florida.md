@@ -4,7 +4,7 @@ layout: post
 title: "38 Days Remote - 8 Days Left in Florida"
 permalink: /38-days-remote-8-days-left-in-florida
 
-hero: false
+hero: true
 hero_image: "/media/jekyll.jpg"
 
 category: updates
@@ -21,6 +21,8 @@ We have been planning and dreaming of doing this since last June.
 We sold all our stuff and moved out of our home. We purchased a Ram truck last July and an Airstream travel trailer last August for this journey.
 
 We’re heading North to visit our families before heading in the direction of our hearts desires; WEST. 
+
+<!--more-->
 
 We’ll be visiting my wife’s family for a reunion in New York during between the end of May and early June. Then we are visiting my family in Ohio during the end of June and first week of July.
 

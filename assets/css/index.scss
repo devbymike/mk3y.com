@@ -1,0 +1,30 @@
+.wrap {
+    width: auto;
+    max-width: 46.875em;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    &::after,
+    &::before {
+        content: '';
+        display: table
+    }
+    &::after {
+        clear: both
+    }
+    @media handheld, only screen and (max-width:814px) {
+        margin-left: 3.15em;
+        margin-right: 3.15em
+    }
+    @media handheld, only screen and (max-width:600px) {
+        margin-left: 3em;
+        margin-right: 3em
+    }
+    @media handheld, only screen and (max-width:400px) {
+        margin-left: 2em;
+        margin-right: 2em
+    }
+}

@@ -1,38 +1,20 @@
-* {
+$font-stack: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-body: Alegreya, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+*, *:after, *:before {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing:    border-box;
-    box-sizing:         border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
     background-color: #fff;
-    color: #222;
-
-    margin: 0;
+    font-family: $font-body;
+    color: #1a292c;
+    font-size:1em;
+    line-height: 1.45em;
+    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-}
-
-.clearfix::after, 
-.entry::after, 
-.entry-content::after, 
-.site-container::after, 
-.site-footer::after, 
-.site-header::after, 
-.site-inner::after, 
-.wrap::after {
-    clear: both;
-    content: " ";
-    display: table;
-}
-.clearfix::before, 
-.entry::before, 
-.entry-content::before, 
-.site-container::before, 
-.site-footer::before, 
-.site-header::before, 
-.site-inner::before, 
-.wrap::before {
-    content: " ";
-    display: table;
+    -moz-osx-font-smoothing: grayscale
 }
 

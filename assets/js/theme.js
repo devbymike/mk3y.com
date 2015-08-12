@@ -1,57 +1,24 @@
 /*global jQuery */
 
-jQuery(function( $ ){
-
-    // Image Section Height
-    var windowHeight = $(window).height() - parseFloat(300);
-    
-        $('.image-section') .css({'height': windowHeight +'px'});
-        
-        $(window).resize(function(){
-    
-    var windowHeight = $(window).height() - parseFloat(300);
-    
-        $('.image-section') .css({'height': windowHeight +'px'});
-    
+$(".menu_button").click(function() {
+        $(".header").toggleClass("open")
     });
 
-    // Enable parallax and fade effects on front page sections
+// $(window).scroll(function() {    
+//     var scroll = $(window).scrollTop();
+//     if (scroll >= 500) {
+//         $(".navigation").addClass("down");
+//     }
+// }); 
+
     $(window).scroll(function(){
-
-        scrolltop = $(window).scrollTop()
-        scrollwindow = scrolltop + $(window).height();
-
-        $(".front-page").css("backgroundPosition", "50% " + -(scrolltop/6) + "px");
-
-    });
-
-    // Add light class to site header after 50px
-    $(document).on("scroll", function(){
-
-        if($(document).scrollTop() > 50){
-            $(".site-header").addClass("light");            
-
-        } else {
-            $(".site-header").removeClass("light");         
-        }
+        /** Get the scroll position of the page */
+        var scrollPos = $("body").scrollTop();
+        /** Scroll and fade out the banner text */
+        $('.introText').css({
+            'margin-top' : -( scrollPos / 3 ) + "px",
+            'opacity' : 1 - ( scrollPos / 200 ),
+            '-ms-filter' : 'progid:DXImageTransform.Microsoft.Alpha(Opacity=' + 1 - ( scrollPos / 300 ) + ')'
+        });
 
     });
-
-    $(".nav-primary .genesis-nav-menu").addClass("responsive-menu").before('<div class="responsive-menu-icon"></div>');
-
-    $(".responsive-menu-icon").click(function(){
-        $(this).next(".nav-primary .genesis-nav-menu").slideToggle();
-    });
-
-    $(window).resize(function(){
-        if(window.innerWidth > 768) {
-            $(".nav-primary .genesis-nav-menu").removeAttr("style");
-            $(".responsive-menu > .menu-item").removeClass("menu-open");
-        }
-    });
-
-});
-
-
-
-
