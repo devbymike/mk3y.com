@@ -2,9 +2,11 @@
 development: true
 
 # Getting Started
-title: 	"CODE & ADVENTURE"
+title: 	"MIKE KEY"
+tagline: "Musings of a Husband, Father, Programer & Athesist"
 description: "Mike Key is a freelance full-stack developer. This is a collection of writings on web development, enterpernuership and personal development."
 email:  "mike@mk3y.com"
+
 
 # Site Config
 baseurl: ""
@@ -23,7 +25,7 @@ paginate_path: "page:num"
 
 # Custom vars
 icon:       /assets/img/icon.png
-cover:      /assets/img/bg.jpg"
+cover:      /assets/img/cover.jpg
 
 # Extra Gems
 gems:
