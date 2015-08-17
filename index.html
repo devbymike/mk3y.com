@@ -6,10 +6,8 @@ layout: default
 	{% for post in paginator.posts %}
 		<article class="post" itemscope="" itemtype="http://schema.org/BlogPosting" role="article">
 			<header class="post-header">
-				<h1 itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h1>
-				<span>
-					Published: <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>.
-				</span>
+                <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
+				<h2 itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
             </header>
 			<section class="excerpt" itemprop="description">
 					{% if post.content contains '<!--more-->' %}
@@ -22,7 +20,7 @@ layout: default
             <footer>
                 <span>
                     {% for category in post.categories %}
-                    Filed Under: {{ category }} 
+                        {{ category }} 
                     {% endfor %}
                 </span>
             </footer>       

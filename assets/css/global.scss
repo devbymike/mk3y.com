@@ -1,20 +1,61 @@
-$font-stack: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-body: Alegreya, Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+$font-title: 'Playfair Display', serif;
+$font-body: 'LyonWeb', Georgia, serif;
+
+@font-face {
+    font-family: 'LyonWeb';
+    src:url('/assets/fonts/LyonText-Regular-Web.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LyonWeb';
+    src:url('/assets/fonts/LyonText-RegularItalic-Web.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
 
 *, *:after, *:before {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
 }
+
+::-moz-selection { background: #fff0b9; }
+::selection { background: #fff0b9; }
+
 
 body {
     background-color: #fff;
-    font-family: $font-body;
-    color: #1a292c;
+    font-family: $font-body;    
+    color: #555;
     font-size:1em;
     line-height: 1.45em;
-    text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
 }
 
+h1, h2, h3, h4 {
+    font-family: $font-title;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1;
+}
+
+p {
+    font-size: 23px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+}
+
+time {
+    font-size: 90%;
+    color: #999;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    text-decoration: none;
+}

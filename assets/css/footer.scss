@@ -1,0 +1,67 @@
+footer {
+    text-align: center;
+    color: #B5B5B5;
+    padding: 50px 0;
+    a {
+        color: #B5B5B5;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+}
+
+/* NAVIGATION */
+nav[role="navigation"] {
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 0;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+nav[role="navigation"] ul > li {
+    text-align: center;
+    width: 27.27273%;
+    float: left;
+    margin-right: 9.09091%;
+    display: inline;
+}
+
+$base-size:.8em; //Scale Me !!
+
+.heart{
+  display:inline-block;
+  width:$base-size;
+  height:$base-size;
+  background:#ed484e;
+  position:relative;
+  animation: myAnimation .5s infinite;
+  margin: 0 7px;
+  
+  &:after,&:before{
+    content:'';
+    display:block;
+    border-radius:50%;
+    width:$base-size;
+    height:$base-size;
+    background:#ed484e;
+    position:absolute;
+  }
+  
+  &:after{ 
+    left:50%;
+  }
+  &:before{
+    top:-50%;
+  }
+}
+
+ /*Animation Keyframes */
+
+@keyframes myAnimation{
+  0% {transform:scale(1,1) rotate(-45deg);}
+  50% {transform:scale(1.2,1.2) rotate(-45deg);}
+  100% {transform:scale(1,1) rotate(-45deg);}
+}
