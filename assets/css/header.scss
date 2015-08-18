@@ -16,8 +16,10 @@
 
 /* HERO IMAGE */
 .hero-image {
+    height: 500px;
     position: relative;
-    background-size:cover;
+    background-size: cover;
+    background-position:center -125px;
     background-attachment:fixed;
     -moz-transition: -moz-transform 200ms ease-in;
     -o-transition: -o-transform 200ms ease-in;
