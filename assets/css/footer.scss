@@ -11,6 +11,9 @@ footer {
 }
 
 /* NAVIGATION */
+.navigation {
+    display: flex;
+}
 nav[role="navigation"] {
     width: 100%;
     z-index: 1000;
@@ -23,10 +26,10 @@ nav[role="navigation"] {
 
 nav[role="navigation"] ul > li {
     text-align: center;
-    width: 27.27273%;
-    float: left;
-    margin-right: 9.09091%;
-    display: inline;
+    width: 100px;  /* Or whatever */
+    height: auto; /* Or whatever */
+    margin: auto;  /* Magic! */
+    list-style-type: none;
 }
 
 $base-size:.8em; //Scale Me !!

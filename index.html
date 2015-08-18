@@ -12,7 +12,7 @@ layout: default
 			<section class="excerpt" itemprop="description">
 					{% if post.content contains '<!--more-->' %}
 						{{ post.content | split:'<!--more-->' | first }}
-                        <a href="{{ BASE_PATH }}{{ post.url }}">continue reading >></a>
+                        <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
 					{% else %}
 						{{ post.content }}   
 					{% endif %}
