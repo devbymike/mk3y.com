@@ -1,41 +1,14 @@
-.site-wrap {
-    width: auto;
-    max-width: 45em;
-    min-height: 100%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 0;
-    padding-right: 0;
-    &::after,
-    &::before {
-        content: '';
-        display: table
-    }
-    &::after {
-        clear: both
-    }
-    @media handheld, only screen and (max-width:814px) {
-        margin-left: 4em;
-        margin-right: 4em
-    }
-    @media handheld, only screen and (max-width:600px) {
-        margin-left: 3em;
-        margin-right: 3em
-    }
-    @media handheld, only screen and (max-width:400px) {
-        margin-left: 2em;
-        margin-right: 2em
-    }
-}
-
 .entry-list {
     li {
         list-style: none;
+        margin-bottom: 1.333em;
+        padding-bottom: 0.666em;
+        border-bottom: thin solid #f3f3f3;
     }
     h3 {
-        font-size: 220%;
-        margin: 0 0 40px;
+        margin-top: .125em;
+        font-weight: 600;
+        font-size: 2.8rem;
         color: #222;
         a:focus,
         a:hover {

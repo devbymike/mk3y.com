@@ -14,7 +14,7 @@ url: "https://mk3y.com"
 
 # Dependencies
 markdown: kramdown
-highlighter: pygments
+# highlighter: pygments
 
 # Permalinks
 permalink: pretty
