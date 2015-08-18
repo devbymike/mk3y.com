@@ -1,54 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    
+    <meta name="description" content="{{ site.description }}" />
 
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-        <meta name="description" content="{{ site.description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    
 
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="MobileOptimized" content="320" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+    <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="prefetch" href="{{ site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-        <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-        <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-        <link rel="prefetch" href="{{ site.url }}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-        <!-- twitter meta -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@mike_key" />
-        <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-        <meta name="twitter:description" content="{% if page.excerpt %}{% if page.content contains '<!-- more -->' %}{{ page.excerpt|strip_html|trim }}{% endif %}{% else %}{{ site.description }}{% endif %}" />
-        <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
           
         {% if page.image %}<meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ page.image }}" />{% endif %}
 
-        <!-- google authorship -->
-        <link rel="author" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
-        <link rel="publisher" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
+    <!-- google authorship -->
+    <link rel="author" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
+    <link rel="publisher" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
 
         {% if page.image %}<meta name="thumbnail" content="{{ site.baseurl | prepend: site.url }}{{ page.image }}" />{% endif %}
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
    
-        <!-- LOAD SITE JQUERY STUFF -->
-        <script type="text/javascript">
-        function downloadJSAtOnload() {
-            var element = document.createElement("script");
-            element.src = "{{ " /assets/js/theme.js " | prepend: site.baseurl }}";
-            document.body.appendChild(element);
-            }
-            if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
-                false);
-            else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
-            else window.onload = downloadJSAtOnload;
-        </script>
 
-        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
     
-        <link rel="stylesheet" href="{{ "/assets/css/init.css" | prepend: site.baseurl }}">
-        <link rel="stylesheet" href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}">
-    </head>
-<body>
+    <link rel="stylesheet" href="{{ "/assets/css/init.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/pygments.css" | prepend: site.baseurl }}">
+
+    <!-- LOAD SITE JQUERY STUFF -->
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+        var element = document.createElement("script");
+            element.src = "{{ " /assets/js/theme.js " | prepend: site.baseurl }}";
+        document.body.appendChild(element);
+            }
+        if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
+                false);
+        else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+    </script>
+
+</head>
