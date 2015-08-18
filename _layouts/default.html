@@ -1,11 +1,16 @@
+<!DOCTYPE html>
+<html>
 {% include head.html %}
-    
-{% include header.html %}
+<body class="{% if site.animated %}animated fade-in-down{% endif %}">
 
-{% include hero-image.html %}
+    <div class="site-wrap">
+        {% include header.html %}
 
-{{ content }}
+        {% include hero-image.html %}
 
-{% include footer.html %}
+        {{ content }}
+    </div>
 
-{% include analytics.html %}
+    {% include footer.html %}
+</body>
+</html>
