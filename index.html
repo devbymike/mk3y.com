@@ -9,13 +9,8 @@ layout: default
             <li>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
                 <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                {% if post.content contains '<!--more-->' %}
-                        {{ post.content | split:'<!--more-->' | first }}
-                        <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
-                    {% else %}
-                        {{ post.content }}   
-                    {% endif %}
-
+                {{ post.excerpt }}
+                <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
             </li>
             {% endfor %}
         </ul>        
