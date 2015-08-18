@@ -2,7 +2,18 @@
 layout: default
 ---
 
+<!-- Stolen from Joshtronic.com  -->
+<a href="/" class="close">&times;</a>
+<!-- Stolen from Joshtronic.com  -->
+
 <section class="wrap post-content">
+        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+        <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
+        <span>
+            {% for category in page.categories %}
+                {{ category }} 
+            {% endfor %}
+        </span>
     <article class="post">
         <section class="postbody">
             {{ content }}
@@ -11,17 +22,17 @@ layout: default
 </section>
 
 <div class="wrap">
-    <div class="post-nav">
+<nav class="pagination">
     {% if page.previous.url %}
-        <div class="left">
+        <div>
             <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
         </div> 
     {% endif %} 
     
     {% if page.next.url %} 
-        <div class="right">
+        <div style="text-align: right;">
             <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
         </div>
     {% endif %}
-  </div> 
+</nav>
 </div>

@@ -26,9 +26,9 @@ $font-body: 'LyonWeb', Georgia, serif;
 
 
 body {
-    background-color: #fff;
+    background-color: #fdfdfd;
     font-family: $font-body;    
-    color: #555;
+    color: #313131;
     font-size:1em;
     line-height: 1.45em;
     -webkit-font-smoothing: antialiased;
@@ -50,7 +50,7 @@ p {
 
 time {
     font-size: 90%;
-    color: #999;
+    color: #b1b2b2;
 }
 
 a:link,
@@ -63,36 +63,4 @@ a:hover {
 
 a:hover, a:focus {
     color: #2795b6;
-}
-
-
-/*  SECTIONS  */
-.section {
-    clear: both;
-    padding: 0px;
-    margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-    display: block;
-    float:left;
-    margin: 1% 0 1% 1.6%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.13%; }
-.span_1_of_3 { width: 32.26%; }
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-    .col {  margin: 1% 0 1% 0%; }
-    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
