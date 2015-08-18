@@ -24,8 +24,8 @@ paginate: 5
 paginate_path: "page:num"
 
 # Custom vars
-icon:       /assets/img/icon.png
-cover:      /assets/img/cover.jpg
+icon:       "/assets/img/icon.png"
+cover:      "https://lh3.googleusercontent.com/kKsizieETQ0J1rc5YSIB-lEs1msXf8dAj70JtqSqVFA=w1232-h790-no"
 
 # Extra Gems
 gems:
