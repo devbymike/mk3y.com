@@ -1,7 +1,7 @@
-.wrap {
+.site-wrap {
     width: auto;
-    max-width: 46.875em;
-    float: none;
+    max-width: 45em;
+    min-height: 100%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -16,8 +16,8 @@
         clear: both
     }
     @media handheld, only screen and (max-width:814px) {
-        margin-left: 3.15em;
-        margin-right: 3.15em
+        margin-left: 4em;
+        margin-right: 4em
     }
     @media handheld, only screen and (max-width:600px) {
         margin-left: 3em;
@@ -28,3 +28,18 @@
         margin-right: 2em
     }
 }
+
+.entry-list {
+    li {
+        list-style: none;
+    }
+    h3 {
+        font-size: 220%;
+        margin: 0 0 40px;
+        color: #222;
+        a:focus,
+        a:hover {
+            color: #55acee;
+        }
+    }
+} 

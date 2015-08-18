@@ -2,29 +2,28 @@
 layout: default
 ---
 
-<main class="wrap" role="main">
-	{% for post in paginator.posts %}
-		<article class="post" itemscope="" itemtype="http://schema.org/BlogPosting" role="article">
-			<header class="post-header">
+<div class="home" role="main">
+    <article>
+        <ul class="entry-list">
+        {% for post in paginator.posts %}
+            <li>
                 <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-				<h2 itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-			<section class="excerpt" itemprop="description">
-					{% if post.content contains '<!--more-->' %}
-						{{ post.content | split:'<!--more-->' | first }}
+                <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+                {% if post.content contains '<!--more-->' %}
+                        {{ post.content | split:'<!--more-->' | first }}
                         <a href="{{ BASE_PATH }}{{ post.url }}" class="btn blue">continue reading</a>
-					{% else %}
-						{{ post.content }}   
-					{% endif %}
-			</section>
-            <footer>
-                <span>
-                    {% for category in post.categories %}
+                    {% else %}
+                        {{ post.content }}   
+                    {% endif %}
+
+                     {% for category in post.categories %}
                         {{ category }} 
                     {% endfor %}
-                </span>
-            </footer>       
-		</article>
-	{% endfor %}
-	{% include pagination.html %}
-</main>
+            </li>
+            {% endfor %}
+        </ul>        
+    </article>
+    
+    {% include pagination.html %}
+
+</div>

@@ -4,13 +4,6 @@ $(".menu_button").click(function() {
         $(".header").toggleClass("open")
     });
 
-// $(window).scroll(function() {    
-//     var scroll = $(window).scrollTop();
-//     if (scroll >= 500) {
-//         $(".navigation").addClass("down");
-//     }
-// }); 
-
     $(window).scroll(function(){
         /** Get the scroll position of the page */
         var scrollPos = $("body").scrollTop();

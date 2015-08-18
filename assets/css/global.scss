@@ -1,31 +1,15 @@
-$font-title: 'Playfair Display', serif;
-$font-body: 'LyonWeb', Georgia, serif;
-
-@font-face {
-    font-family: 'LyonWeb';
-    src:url('/assets/fonts/LyonText-Regular-Web.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'LyonWeb';
-    src:url('/assets/fonts/LyonText-RegularItalic-Web.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
-
 *, *:after, *:before {
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
 }
 
-::-moz-selection { background: #fff0b9; }
-::selection { background: #fff0b9; }
-
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 
 body {
+    margin: 0;
     background-color: #fdfdfd;
     font-family: $font-body;    
     color: #313131;
@@ -34,12 +18,67 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
 h1, h2, h3, h4 {
     font-family: $font-title;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: inherit;
     font-weight: 600;
     line-height: 1;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
 }
 
 p {
@@ -58,9 +97,12 @@ a:visited,
 a:active,
 a:hover {
     color: #000;
-    text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover, 
+a:focus {
     color: #2795b6;
 }
+
+::-moz-selection { background: #fff0b9; }
+::selection { background: #fff0b9; }
