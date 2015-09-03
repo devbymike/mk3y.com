@@ -4,6 +4,7 @@ var gulp         = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss    = require('gulp-minify-css'),
     rename       = require('gulp-rename');
+    browserSync = require('browser-sync').create();
 
 gulp.task('minify', function () {
    return gulp.src('assets/js/theme.js')
@@ -20,3 +21,11 @@ gulp.task('sass', function() {
     .pipe(rename('style.min.css'))
     .pipe(gulp.dest(''))
 });
+
+gulp.task('browserSync', function() {
+    browserSync({
+      server: {
+        baseDir: "_site"
+      }
+    });
+  });

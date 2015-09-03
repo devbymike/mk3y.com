@@ -1,5 +1,8 @@
 #Dev Mode?
 development: true
+source: app
+destination: deploy
+
 
 # Getting Started
 title: 	"Mike Key"

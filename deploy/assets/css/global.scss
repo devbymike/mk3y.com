@@ -1,0 +1,159 @@
+$font-title: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+$font-body: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #fdfdfd;
+    font-family: $font-body;    
+    font-size:16px;
+    color: #313131;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+}  
+
+p,
+li {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: $font-title;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 1em 0 0.5em;
+}
+
+h1 {
+    font-size: 3.250rem;
+}
+
+h2 {
+    font-size: 2.298rem;
+}
+
+h3 {
+    font-size: 1.625rem;
+}
+
+h4 {
+    font-size: 1.150rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+
+time {
+    font-size: 90%;
+    color: #b1b2b2;
+}
+
+a:link,
+a:visited,
+a:active,
+a:hover {
+    color: #000;
+}
+
+a:hover, 
+a:focus {
+    color: #2795b6;
+}
+
+::-moz-selection { background: #fff0b9; }
+::selection { background: #fff0b9; }
+
+.site-wrap {
+    width: auto;
+    max-width: 45rem;
+    margin-right: auto;
+    margin-left: auto;
+    &::after,
+    &::before {
+        content: '';
+        display: table
+    }
+    &::after {
+        clear: both
+    }
+    @media handheld, only screen and (max-width:814px) {
+        margin-left: 4rem;
+        margin-right: 4rem
+    }
+    @media handheld, only screen and (max-width:600px) {
+        margin-left: 3rem;
+        margin-right: 3rem
+    }
+    @media handheld, only screen and (max-width:400px) {
+        margin-left: 2rem;
+        margin-right: 2rem
+    }
+}
