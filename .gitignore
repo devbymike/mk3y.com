@@ -1,4 +1,5 @@
 _site
+deploy
 .sass-cache
 .DS_Store
 npm-debug.log
