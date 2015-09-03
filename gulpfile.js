@@ -29,7 +29,7 @@ gulp.task('critical', function () {
    critical.generate({
      base: './',
      src: 'deploy/index.html',
-     css: 'deploy/style.min.css',
+     css: 'deploy/style.css',
      dest: 'app/_includes/critical.css',
      width: 320,
      height: 480,

@@ -1,7 +1,6 @@
 #Dev Mode?
-development: true
-source: app
-destination: deploy
+development: false
+destination: public
 
 
 # Getting Started
