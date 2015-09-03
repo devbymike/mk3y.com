@@ -33,9 +33,14 @@ gems:
 # Build settings
 timezone: America/New York
 exclude:
+  - CNAME
+  - LICENSE
   - README.md
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - gulpfile.js
+  - npm-debug.log
 
 # Assets Pipeline
 sass:
