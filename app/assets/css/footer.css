@@ -1,0 +1,54 @@
+footer {
+  text-align: center;
+  color: #b1b2b2;
+  padding: 50px 0;
+  color: #7a7a7a;
+  background-color: #fafafa;
+  border-top: thin solid #f3f3f3;
+  font-size: 1rem; }
+  footer a {
+    color: #b1b2b2; }
+  footer .copyright {
+    margin-bottom: 15px; }
+
+/* NAVIGATION */
+nav[role="navigation"] {
+  text-align: center;
+  padding: 3.125rem 0; }
+
+.navigation {
+  display: flex;
+  width: 100%; }
+  .navigation a {
+    flex-grow: 1; }
+
+/* MADE WITH LOVE */
+.heart {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  background: #ed484e;
+  position: relative;
+  animation: myAnimation 0.5s infinite;
+  margin: 0 7px; }
+  .heart:after, .heart:before {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    width: 0.8em;
+    height: 0.8em;
+    background: #ed484e;
+    position: absolute; }
+  .heart:after {
+    left: 50%; }
+  .heart:before {
+    top: -50%; }
+
+/*Animation Keyframes */
+@keyframes myAnimation {
+  0% {
+    transform: scale(1, 1) rotate(-45deg); }
+  50% {
+    transform: scale(1.2, 1.2) rotate(-45deg); }
+  100% {
+    transform: scale(1, 1) rotate(-45deg); } }

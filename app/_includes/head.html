@@ -12,44 +12,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
-    
 
     <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
     <link rel="prefetch" href="{{ site.url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-
     <link rel="author" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
     <link rel="publisher" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
 
-  
-
     <!-- Load CSS -->
     <script type="text/javascript">{% include loadCSS.js %}</script>
-
-    <!-- LOAD SITE JQUERY STUFF -->
-    <script type="text/javascript">
-        function downloadJSAtOnload() {
-            var element = document.createElement("script");
-                element.src = "{{ " https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js " }}";
-            document.body.appendChild(element);
-                }
-            if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
-                    false);
-            else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
-            else window.onload = downloadJSAtOnload;
-    </script>
-    <script type="text/javascript">
-        function downloadJSAtOnload() {
-            var element = document.createElement("script");
-                element.src = "{{ " /assets/js/theme.js " | prepend: site.baseurl }}";
-            document.body.appendChild(element);
-                }
-            if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
-                    false);
-            else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
-            else window.onload = downloadJSAtOnload;
-    </script>
 
 </head>

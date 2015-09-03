@@ -1,0 +1,14 @@
+.entry-list li {
+  list-style: none;
+  margin-bottom: 1.333em;
+  padding-bottom: 0.666em;
+  border-bottom: thin solid #f3f3f3; }
+
+.entry-list h3 {
+  margin-top: .125em;
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #222; }
+  .entry-list h3 a:focus,
+  .entry-list h3 a:hover {
+    color: #55acee; }
