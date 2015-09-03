@@ -1,11 +1,15 @@
 <head>
+
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,300,300italic|Lato:900' rel='stylesheet' type='text/css'>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     
     <meta name="description" content="{{ site.description }}" />
 
-    <meta name="viewport" content="width=device-width device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     
@@ -16,36 +20,35 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 
-          
-        {% if page.image %}<meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ page.image }}" />{% endif %}
-
-    <!-- google authorship -->
     <link rel="author" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
     <link rel="publisher" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
 
-        {% if page.image %}<meta name="thumbnail" content="{{ site.baseurl | prepend: site.url }}{{ page.image }}" />{% endif %}
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    
-        <!-- Fonts -->
-        <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ "/assets/css/init.css" | prepend: site.baseurl }}">
 
-
-        <link rel="stylesheet" href="{{ "/assets/css/init.css" | prepend: site.baseurl }}">
-
+ 
 
     <!-- LOAD SITE JQUERY STUFF -->
     <script type="text/javascript">
         function downloadJSAtOnload() {
-        var element = document.createElement("script");
-            element.src = "{{ " /assets/js/theme.js " | prepend: site.baseurl }}";
-        document.body.appendChild(element);
-            }
-        if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
-                false);
-        else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
-        else window.onload = downloadJSAtOnload;
+            var element = document.createElement("script");
+                element.src = "{{ " https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js " }}";
+            document.body.appendChild(element);
+                }
+            if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
+                    false);
+            else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
+    </script>
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+            var element = document.createElement("script");
+                element.src = "{{ " /assets/js/theme.js " | prepend: site.baseurl }}";
+            document.body.appendChild(element);
+                }
+            if (window.addEventListener) window.addEventListener("load", downloadJSAtOnload,
+                    false);
+            else if (window.attachEvent) window.attachEvent("onload", downloadJSAtOnload);
+            else window.onload = downloadJSAtOnload;
     </script>
 
 </head>
