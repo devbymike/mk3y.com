@@ -1,85 +1,22 @@
-/*=============================================
-=            Gulp File by @devbymike          =
-=============================================*/
+var gulp         = require('gulp'),
+    uglify       = require('gulp-uglify'),
+    sass         = require('gulp-sass'),
+    autoprefixer = require('gulp-autoprefixer'),
+    minifycss    = require('gulp-minify-css'),
+    rename       = require('gulp-rename');
 
-/**
-*
-* The packages we are using
-* Not using gulp-load-plugins as it is nice to see whats here.
-*
-**/
-var gulp         = require('gulp');
-var sass         = require('gulp-ruby-sass');
-var prefix       = require('gulp-autoprefixer');
-var plumber      = require('gulp-plumber');
-var uglify       = require('gulp-uglify');
-var rename       = require("gulp-rename");
-var imagemin     = require("gulp-imagemin");
-var pngquant     = require('imagemin-pngquant');
+gulp.task('minify', function () {
+   return gulp.src('assets/js/theme.js')
+      .pipe(uglify())
+      .pipe(rename('theme.min.js'))
+      .pipe(gulp.dest('assets/js'))
+});
 
-/**
-*
-* Styles
-* - Compile
-* - Compress/Minify
-* - Catch errors (gulp-plumber)
-* - Autoprefixer
-*
-**/
 gulp.task('sass', function() {
-  return sass('scss/main.scss', { style: 'compressed' })
-  .on('error', function (err) {
-    console.error('Error!', err.message);
-  })
-  .pipe(prefix('last 2 versions', '> 1%', 'ie 8', 'Android 2', 'Firefox ESR'))
-  .pipe(plumber())
-  .pipe(gulp.dest('css'));
-});
-
-
-
-/**
-*
-* Javascript
-* - Uglify
-*
-**/
-gulp.task('scripts', function() {
-  gulp.src('js/*.js')
-  .pipe(uglify())
-  .pipe(rename({
-    dirname: "min",
-    suffix: ".min",
-  }))
-  .pipe(gulp.dest('js'))
-});
-
-/**
-*
-* Images
-* - Compress them!
-*
-**/
-gulp.task('images', function () {
-  return gulp.src('images/*')
-  .pipe(imagemin({
-    progressive: true,
-    svgoPlugins: [{removeViewBox: false}],
-    use: [pngquant()]
-  }))
-  .pipe(gulp.dest('images'));
-});
-
-
-/**
-*
-* Default task
-* - Runs sass, browser-sync, scripts and image tasks
-* - Watchs for file changes for images, scripts and sass/css
-*
-**/
-gulp.task('default', ['sass', 'scripts', 'images'], function () {
-  gulp.watch('scss/**/*.scss', ['sass']);
-  gulp.watch('js/**/*.js', ['scripts']);
-  gulp.watch('images/*', ['images']);
+  return gulp.src('assets/css/init.scss')
+    .pipe(sass())
+    .pipe(autoprefixer( 'last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4' ))
+    .pipe(minifycss())
+    .pipe(rename('style.min.css'))
+    .pipe(gulp.dest(''))
 });
