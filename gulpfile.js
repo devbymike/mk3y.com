@@ -14,28 +14,27 @@ autoprefixer = require('gulp-autoprefixer'),
  
 
 gulp.task('sass', function () {
-    gulp.src('app/assets/css/*.scss')
+    gulp.src('assets/css/*.scss')
         .pipe(sass())
-        .pipe(gulp.dest('app/assets/css/'))
+        .pipe(gulp.dest('assets/css/'))
         .pipe(concat('style.css'))
-        .pipe(gulp.dest('app/'))
+        .pipe(gulp.dest('./'))
         .pipe(minifycss())
         .pipe(rename('style.min.css'))
-        .pipe(gulp.dest('app/'));
+        .pipe(gulp.dest('./'));
 });
-
 
 gulp.task('critical', function () {
    critical.generate({
-     base: './',
-     src: 'deploy/index.html',
-     css: 'deploy/style.css',
-     dest: 'app/_includes/critical.css',
-     width: 320,
-     height: 480,
-     minify: true
-   });
- });
+    base: './',
+    src: 'public/index.html',
+    css: 'public/style.css',
+    dest: '_includes/critical.css',
+    width: 320,
+    height: 480,
+    minify: true
+  });
+});
  
  gulp.task('watch', function() {
    gulp.watch('app/assets/css/*.scss', ['sass'])
