@@ -1,8 +1,3 @@
-/*global jQuery */
-
-$(".menu_button").click(function() {
-        $(".header").toggleClass("open")
-    });
 
     $(window).scroll(function(){
         /** Get the scroll position of the page */
