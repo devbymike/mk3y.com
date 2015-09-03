@@ -1,9 +1,8 @@
-_site
 deploy
 .sass-cache
-.DS_Store
 npm-debug.log
 
+.DS_Store
 deploy/_posts/.DS_Store
 deploy/_includes/.DS_Store
 deploy/_layouts/.DS_Store
