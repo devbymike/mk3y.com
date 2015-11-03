@@ -19,7 +19,7 @@ My home wasn’t a religious one growing up. I grew up with a single mother and 
 
 For the most part, my childhood was free of any religious indoctrination.
 
-We identified with the Christianity because it was mainstream and because of family traditions. We celebrated Christmas as the birth of Christ. Easter as the Resurrection and gave a prayer of thanks on Thanksgiving. 
+We identified with Christianity because it was mainstream and because of family traditions. We celebrated Christmas as the birth of Christ. Easter as the Resurrection and gave a prayer of thanks on Thanksgiving. 
 
 We didn’t attend regular Sunday services, though. We weren’t members of any particular church or denomination. 
 
