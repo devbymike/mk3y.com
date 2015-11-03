@@ -21,7 +21,7 @@ We identified as Christians because it was mainstream and because of family trad
 
 We didn’t attend regular Sunday services, though. And we weren’t members of any particular church or denomination. 
 
-But in my home, God existed and Jesus was his son. This is pretty much the view held by most americans. But not much thought beyond that was ever expressed.
+But in my home, God existed, and Jesus was his son. This is pretty much the view held by most Americans. But not much thought beyond that was ever expressed.
 
 ## My path to Christianity
 
@@ -51,7 +51,7 @@ My faith played a daily part in my life and my identity. I had found a community
 
 Daily Bible study and prayer became ritual for me. As time went on, I developed an interest in better understanding my faith. Topics of theology and creationism were of particular interest.
 
-At that time, I had a deep personal relationship with Christ. With a rich prayer life, I felt assured of my salvation. I had been baptized in my church and received the Holy Spirit and the gifts of the spirit.
+At that time, I had a deep personal relationship with Christ. With a rich prayer life, I felt assured of my salvation. I was baptized in my church and received the Holy Spirit and the gifts of the spirit.
 
 ## My First Questioning
 
@@ -65,11 +65,11 @@ Naturally, the Christian response is, man is fallible. We have a sin nature. As 
 
 It is at this time I began a regular discussion on the topic of faith with an old friend.
 
-He exposed me to some of the problems with my church’s teachings of the “prosperity gospel”. And pointed me towards reformed aspects of theology.
+He exposed me to some of the problems with my church’s teachings of the “prosperity gospel”,  and pointed me towards reformed aspects of theology.
 
 What happened here are a couple rationalizations.
 
-The word of God is still true. But the teachings presented to me were wrong. Because of this, it would lead to sin and other consequences. It could even lead one to believe they are saved, when in fact they are not.
+The word of God is still true. But the teachings presented to me were wrong. Because of this, it would lead to sin and other consequences. It could even lead one to believe they are saved, when, in fact, they are not.
 
 A doubling down on my faith began, and a journey into the young reformed movement started.
 
@@ -77,13 +77,13 @@ A doubling down on my faith began, and a journey into the young reformed movemen
 
 In 2011, my wife and I moved to Florida. After searching for a church home, and a few that didn’t fit, we found one in Saint Petersburg. Life Bridge Church seemed like the place for us.
 
-From the pulpit the pastor preached a reformed approach to Christianity. And I began to read books from authors and pastors like RC Sproul and John Piper.  
+From the pulpit, the pastor preached a reformed approach to Christianity. And I began to read books from authors and pastors like RC Sproul and John Piper.  
 
-And for a time, we were happy and grew in our faith. The difference in preaching style also helped me gain a deeper understanding of my faith. And encouraged me to learn systematic theology for myself. 
+And for a time, we were happy and grew in our faith.
 
 That was until the realization that Life Bridge Church is a CULT of personality. 
 
-A few families at this time were having issues with the church leadership, and somehow my wife and I got sucked into this. We were subject to humiliation, insults, harassment and flat out spiritual abuse as I was made a scape goat.
+A few families at this time were having issues with the church leadership, and somehow my wife and I got sucked into this. We were subject to humiliation, insults, harassment and flat out spiritual abuse as I became a scapegoat.
 
 We promptly left that church. And we moved from Saint Petersburg to Clearwater just to get away from it's members.
 
@@ -128,7 +128,7 @@ There is just no strong evidence to suggest I believe otherwise.
 
 Atheism is quite liberating. But at the same time, this journey has brought a small sense of sadness and some anger.  It has also humbled me in some ways, and I have some regrets about previously held positions.
 
-Sadness at the energy spent on church and other “Christian” pursuits. Time and energy that instead could of have gone towards my dreams and goals. Not to mention lost income given away to churches.
+Sadness at the energy spent on church and other “Christian” pursuits. Time and energy that instead could of have gone towards my dreams and goals, not to mention lost income given away to churches.
 
 Regret that I held beliefs like “Homosexuals are deviants and shouldn’t be allowed to be married.”
 
@@ -138,11 +138,11 @@ Anger that I was naive enough to believe in things that seem obvious now. But at
 
 Anger that those beliefs that I held, do in fact inflict massive societal ill. Cause harm to millions of people in various types of ways. And in some cases are holding our society as a whole back.
 
-But in this, there is also great relief and peace. The lie of sin is removed from my life. I can make mistakes, dust off my feet and move forward. I am accountable for my mistakes. I am not a broken person who needs Jesus. There is no hole in my heart that only God can fill. These are lies of bondage.
+But in this, there is also great relief and peace. 
 
+No longer burdened by the concept of sin, I can make mistakes, dust off my feet and move forward. I am accountable for my mistakes. I am not a broken person who needs Jesus. There is no hole in my heart that only God can fill. These are lies of bondage.
 
 A new view on life and it’s meaning. It feels richer and more beautiful than before. Rather than living my life for some final reward, I live in the here and the now. The present moment. There is no fear of uncertainty, no fear of hell fire. No fear or worry about whether I have the right theology.
-
 
 I want to close with a quote by Christopher Hitchens
 
