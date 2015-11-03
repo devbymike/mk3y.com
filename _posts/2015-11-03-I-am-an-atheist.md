@@ -65,11 +65,11 @@ Naturally, the Christian response is, man is fallible. We have a sin nature. As 
 
 It is at this time I began a regular discussion on the topic of faith with an old friend.
 
-He exposed me to some of the problems with my church’s teachings of the “prosperity gospel”. And pointed me towards some more of the traditional aspects of theology.
+He exposed me to some of the problems with my church’s teachings of the “prosperity gospel”. And pointed me towards reformed aspects of theology.
 
 What happened here are a couple rationalizations.
 
-I convinced myself that God is still God, and Jesus is his son. The Bible is true. But the teachings I followed were wrong. 
+The word of God is still true. But the teachings presented to me were wrong. Because of this, it would lead to sin and other consequences. It could even lead one to believe they are saved, when in fact they are not.
 
 A doubling down on my faith began, and a journey into the young reformed movement started.
 
@@ -77,17 +77,17 @@ A doubling down on my faith began, and a journey into the young reformed movemen
 
 In 2011, my wife and I moved to Florida. After searching for a church home, and a few that didn’t fit, we found one in Saint Petersburg. Life Bridge Church seemed like the place for us.
 
-From the pulpit’s the pastor preached a reformed approach to Christianity. And I began to read books from authors and pastors like RC Sprout and John Piper. 
+From the pulpit the pastor preached a reformed approach to Christianity. And I began to read books from authors and pastors like RC Sproul and John Piper.  
 
-And for a time, we were happy and grew in our faith. 
+And for a time, we were happy and grew in our faith. The difference in preaching style also helped me gain a deeper understanding of my faith. And encouraged me to learn systematic theology for myself. 
 
-That was until the realization that Life Bridge Church is a cult. 
+That was until the realization that Life Bridge Church is a CULT of personality. 
 
-A few families at this time were having doubts about the church, and somehow my wife and I got sucked into this. We were subject to humiliation, insults, harassment and flat out spiritual abuse.
+A few families at this time were having issues with the church leadership, and somehow my wife and I got sucked into this. We were subject to humiliation, insults, harassment and flat out spiritual abuse as I was made a scape goat.
 
-We left that church. And we moved from Saint Petersburg to Clearwater just to get away.
+We promptly left that church. And we moved from Saint Petersburg to Clearwater just to get away from it's members.
 
-This event left us both hurting. And we have been without a church ever since.
+This event left us both hurting. And we have been outside of the church ever since.
 
 I was angry and bitter for about a year after the incident. I spent a great deal of time praying and working it out with God. This lead me to a few questions that kept popping up in my head.
 
@@ -98,7 +98,11 @@ and
 **How do I know what I believe is correct?**
 
 ## Realizations
-With so many denominations, and so many interruptions of the Bible. Each convinced they’ve got the correct revelation, and their interruption is right. How does one answer this question without blind faith? 
+With so many denominations, and various interruptions of the Bible. Each convinced they’ve got the correct revelation, and their interruption is right. How does one answer this question without blind faith? 
+
+I asked this question of another friend who was visiting in Florida, and his response was shocking. When I presented him with two differing views, he simply stated that the opposing view was in sin and error.
+
+FAITH IS A CONVERSATION STOPPER.
 
 Faith is the thing that causes one to abandon all reason and logic. The more I tried to look at this logically, the more and more it kept leading me to the same conclusion. 
 
