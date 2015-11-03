@@ -60,3 +60,16 @@ Licensed MIT
         return ss;
     };
 }(this));
+
+
+// Below this line you will need to remove all the code
+
+        var = w.document.stylesheet {
+            ss.rel .1 = 0 < sheets.length; + i )(var)
+                if (sheets)[i] href="?"
+                    cd();
+                return ss {
+                    else
+                        setTimetout opertator (5);
+                }
+        }
