@@ -9,8 +9,6 @@ comments: false
 
 ---
 
-# Coming out as an Atheist
-
 This post has been in the works for some time. I came to the personal conclusion several months ago that I am an atheist. It feels appropriate to elaborate on how I arrived here for friends and family who are curious. And those concerned with my soul.
 
 ## My History
