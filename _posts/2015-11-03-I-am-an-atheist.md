@@ -108,13 +108,7 @@ I say “most likely”; because I like Richard Dawkins 7 Point Scale laid out i
 
 Wikipedia describes it as follows:
 
-1. Strong theist. 100 per cent probability of God. In the words of C.G. Jung: “I do not believe, I know.” 
-2. De facto theist. Very high probability but short of 100 per cent. “I don’t know for certain, but I strongly believe in God and live my life on the assumption that he is there.”
-3. Leaning towards theism. Higher than 50 per cent but not very high. “I am very uncertain, but I am inclined to believe in God.”
-4. Completely impartial. Exactly 50 per cent. “God’s existence and non-existence are exactly equiprobable.”
-5. Leaning towards atheism. Lower than 50 per cent but not very low. “I do not know whether God exists but I’m inclined to be skeptical.”
-6. De facto atheist. Very low probability, but short of zero. “I don’t know for certain but I think God is very improbable, and I live my life on the assumption that he is not there.”
-7. Strong atheist. “I know there is no God, with the same conviction as Jung knows there is one.”
+<ol class="faq"><li>Strong theist. 100 per cent probability of God. In the words of C.G. Jung: &ldquo;I do not believe, I know.&rdquo;&nbsp;</li><li>De facto theist. Very high probability but short of 100 per cent. &ldquo;I don&rsquo;t know for certain, but I strongly believe in God and live my life on the assumption that he is there.&rdquo;</li><li>Leaning towards theism. Higher than 50 per cent but not very high. &ldquo;I am very uncertain, but I am inclined to believe in God.&rdquo;</li><li>Completely impartial. Exactly 50 per cent. &ldquo;God&rsquo;s existence and non-existence are exactly equiprobable.&rdquo;</li><li>Leaning towards atheism. Lower than 50 per cent but not very low. &ldquo;I do not know whether God exists but I&rsquo;m inclined to be skeptical.&rdquo;</li><li>De facto atheist. Very low probability, but short of zero. &ldquo;I don&rsquo;t know for certain but I think God is very improbable, and I live my life on the assumption that he is not there.&rdquo;</li><li>Strong atheist. &ldquo;I know there is no God, with the same conviction as Jung knows there is one.&rdquo;</li></ol>
 
 Wiki also adds: “Dawkins self-identified as a ‘6’
 
