@@ -9,21 +9,23 @@ comments: false
 
 ---
 
-This post has been in the works for some time. I came to the personal conclusion several months ago that I am an atheist. It feels appropriate to elaborate on how I arrived here for friends and family who are curious. And those concerned with my soul.
+This post has been in the works for some time. Several months ago I came to the conclusion that I am an atheist. It feels appropriate to elaborate on how I arrived here for friends and family who have been curious and concerned.
 
 ## My History
 
-My home wasn’t a religious one growing up. I grew up with a single mother and no father present in my life.
+My home wasn’t a religious one growing up. I grew up with a single mother. My father wasn't present in my life.
 
 For the most part, my childhood was free of any religious indoctrination.
 
-We identified with Christianity because it was mainstream and because of family traditions. We celebrated Christmas as the birth of Christ. Easter as the Resurrection and gave a prayer of thanks on Thanksgiving. 
+We identified as Christians because it was mainstream and because of family traditions. We celebrated Christmas as the birth of Jesus. Easter as the Resurrection and gave a prayer of thanks on Thanksgiving.
 
-We didn’t attend regular Sunday services, though. We weren’t members of any particular church or denomination. 
+We didn’t attend regular Sunday services, though. And we weren’t members of any particular church or denomination. 
+
+But in my home, God existed and Jesus was his son. This is pretty much the view held by most americans. But not much thought beyond that was ever expressed.
 
 ## My path to Christianity
 
-My life up until my early 20’s resembled a secularly progressive one.
+My life up until my early 20’s resembled a secular one.
 
 In 2004, I was terminated from a job as a contractor for the Navy/USMC.
 
@@ -31,13 +33,11 @@ This event and a cumulative of other bad choices forced me to re-evaluate the di
 
 My ego proceeded to implode over the following months as I struggled to make ends meet.
 
-A former coworker reached out to me at about this time. He gave me a book called, “Maximized Manhood”. This book exposed me to some traditional Christian ideas about manhood. At the time, the book resonated with explaining why my life was in disarray.
+A former coworker reached out to me at about this time. He gave me a book called, “Maximized Manhood.” This book exposed me to traditional Christian ideas about manhood. At the time, the book resonated with me in explaining why my life was in disarray.
 
 He invited me to his church, the first time I had ever gone to a church in my young adult life. And that first Sunday, it felt as though the pastor of this church was speaking to me with his sermon.
 
-It was a talk about manhood and it resonated. 
-
-As a boy without a father growing up, I had no real idea how to be a man in my adult life.
+It was a talk about manhood and it resonated. In my early 20's I felt that I didn't know how to be a man. Or how a man should act. 
 
 Here was that answer, Christianity would teach me how to be a man and fix the brokenness in my life.
 
@@ -45,13 +45,13 @@ God was my father. I was no longer fatherless. And Jesus Christ was my savior, w
 
 ## My Faith
 
-Over time, I became more involved in my church and felt that God’s calling on my life was men’s ministry.
+Over time, I became more involved in my church and felt that God’s calling on my life was men’s ministry. To help lead other broken men such as myself.
 
 My faith played a daily part in my life and my identity. I had found a community to belong to, a purpose for being. 
 
 Daily Bible study and prayer became ritual for me. As time went on, I developed an interest in better understanding my faith. Topics of theology and creationism were of particular interest.
 
-At that time, I felt and believed that I had a deep personal relationship with Christ. I had a rich prayer life and felt assured of my salvation. I had been baptized and received the Holy Spirit and the gifts of the spirit.
+At that time, I had a deep personal relationship with Christ. With a rich prayer life, I felt assured of my salvation. I had been baptized in my church and received the Holy Spirit and the gifts of the spirit.
 
 ## My First Questioning
 
@@ -60,6 +60,8 @@ I spent six years of my adult life at the church my former co-worker introduced 
 But the church collapsed when it came to light that the pastor was having an affair with the youth pastors wife. And that this was not the first time this behavior had occurred.
 
 This was a blow at first. I questioned what I had placed my faith in, and began to ask, how I knew what I was believing was correct.
+
+Naturally, the Christian response is, man is fallible. We have a sin nature. As so often quoted, all of us fall short the glory of God. 
 
 It is at this time I began a regular discussion on the topic of faith with an old friend.
 
