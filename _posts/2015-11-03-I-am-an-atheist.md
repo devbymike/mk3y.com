@@ -132,13 +132,17 @@ Sadness at the energy spent on church and other “Christian” pursuits. Time a
 
 Regret that I held beliefs like “Homosexuals are deviants and shouldn’t be allowed to be married.”
 
-Regret that many of the beliefs I held as a direct result in my belief in Christianity, directly or indirectly contribute to the oppression and abuse of others.
+Regret that many of the beliefs I held damaged relationships with people.
 
-Anger that I was niece enough to believe in things that seem obvious now. But at the same time, a deep understanding of why and how others believe what they believe.
+Anger that I was naive enough to believe in things that seem obvious now. But at the same time, a deep understanding of why and how others believe what they believe. Perhaps sympathy too.
 
 Anger that those beliefs that I held, do in fact inflict massive societal ill. Cause harm to millions of people in various types of ways. And in some cases are holding our society as a whole back.
 
-But in this, there is also great joy. And a new view on life and it’s meaning. It feels richer and more beautiful than before. Rather than living my life for some final reward, I live in the here and the now. The present moment. There is no fear of uncertainty, no fear of hell fire. No fear or worry about whether I have the right theology.
+But in this, there is also great relief and peace. The lie of sin is removed from my life. I can make mistakes, dust off my feet and move forward. I am accountable for my mistakes. I am not a broken person who needs Jesus. There is no hole in my heart that only God can fill. These are lies of bondage.
+
+
+A new view on life and it’s meaning. It feels richer and more beautiful than before. Rather than living my life for some final reward, I live in the here and the now. The present moment. There is no fear of uncertainty, no fear of hell fire. No fear or worry about whether I have the right theology.
+
 
 I want to close with a quote by Christopher Hitchens
 
