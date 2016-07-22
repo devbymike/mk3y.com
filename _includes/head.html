@@ -1,29 +1,16 @@
-<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        
+        <meta name="description" content="{{ site.description }}" />
 
-    <link href='//fonts.googleapis.com/css?family=Merriweather:900,300,300italic|Lato:900' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        
+        <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+        <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
+        <link rel="prefetch" href="{{ site.url }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}" />
-
-    <!-- LOAD CRITICAL CSS-->
-    <style type="text/css">{% include critical.css %}</style>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-    <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
-    <link rel="prefetch" href="{{ site.url }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-    <link rel="author" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
-    <link rel="publisher" href="https://plus.google.com/u/0/+MikeKey_adventurer/"/>
-
-    <!-- Load CSS -->
-    <link rel="stylesheet" href="{{ "/style.min.css" | prepend: site.baseurl }}">
-
-</head>
+        <!-- <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}"> -->

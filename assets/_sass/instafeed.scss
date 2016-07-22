@@ -1,0 +1,24 @@
+.instagram-footer {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center
+}
+
+.instagram-pics {
+    width: 100%;
+    position: relative;
+    li {
+        width: 12.5%;
+        display: inline;
+        float: left;
+        img {
+            max-width: 100%;
+            vertical-align: middle;
+        }
+    }
+}
+.instagram-title {
+    padding: 1em 0;
+    background-color: #f2f2f2;
+}

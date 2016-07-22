@@ -1,0 +1,65 @@
+.fixed-footer {
+    position: fixed;
+    overflow: hidden;
+    z-index: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+footer {
+    background-color: #161616;
+        > * {
+        max-width: 690px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    a {
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        -o-transition: .25s;
+        -ms-transition: .25s;
+        -moz-transition: .25s;
+        -webkit-transition: .25s;
+        transition: .25s;
+        &:hover {
+            color: #888;
+        }
+    }
+}
+
+.footer-menu {
+    ul {
+                display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    li {
+        display: inline-block;
+        flex-grow: 1;
+    }
+    a {
+        color: #fff;
+        line-height: 50px;
+        display: block;
+    }
+}
+
+.footer-copyright {
+    padding: 0px 0px 20px 0px;
+}
+
+.copyright {
+    line-height: 24px;
+    font-size: 13px;
+    color: #888;
+    a {
+        color: #fff;
+    }
+}

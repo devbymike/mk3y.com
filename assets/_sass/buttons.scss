@@ -1,0 +1,47 @@
+.read-more {
+        display: block;
+        position: relative;
+}
+.shape-arrow--broken {
+      width: 35px;
+      height: 10px;
+      fill: #1A7C92;
+      margin-left: .75em;
+      margin-bottom: .05em;
+      transition: margin-left .4s .8s;
+}
+// SVG instead of psuedo-element(= looks ragged in Firefox)
+// .read-more::after {
+//   content:"";
+//   display: inline-block;
+//   width: 0;
+//   height: 0;
+//   border-top: .25em solid transparent;
+//   border-left: .5em solid $link-color;
+//   border-bottom: .25em solid transparent;
+//   margin-left: .75em;
+//   margin-bottom: .05em;
+//   transition: margin-left .4s .8s;
+// }
+.read-more:hover .shape-icon {
+    margin-left: 40%;
+} 
+
+.btn {
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 17px;
+    line-height: 140%;
+    margin: 0 2px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px;
+    &.primary {
+        color: black;
+        background-color: #F0C029;
+    }
+}
