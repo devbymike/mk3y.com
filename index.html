@@ -8,6 +8,20 @@ layout: compress
         {% include head.html %}
 
         <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
+
+   </head>
+<body class="animated fade-in-down">
+
+        <div class="profile">
+            <img src="/assets/images/profile.jpg" alt="Anthony Garand">
+        </div>
+        <article>
+            <h2 class="greeting">Hey,</h2>
+            <h1 class="name">We're Mike & JorDanee</h1>
+            <h3 class="message">We're 30 somethings who have spent the last year and half living our dreams. Together we traveled across the United States in our Airstream travel trailer sharing our adventures with friends and family on our blog <a href="https://boldandadventurous.com/" target="_blank">Bold&Adventurous.com</a> and on Instagram at <a href="https://www.instagram.com/boldadventure/" target="_blank">@BoldAdventure</a> & <a href="https://www.instagram.com/herboldadventure/" target="_blank">@HerBoldAdventure</a>. <br><br>Today, we are chasing an entrepreneurial dream of owning a successful real estate investment business. We're incredibly passionate about this goal. And our first goal is to purchase two investment properties in Boise, Idaho by close of 2016.</h3>
+            <div id="instafeed"></div>
+        </article>
+
         <script type="text/javascript" src="/assets/js/theme.min.js"></script>
 
         <script type="text/javascript">
@@ -19,48 +33,8 @@ layout: compress
                 sortBy: 'most-liked'
             });
             feed.run();
-        </script>
+        </script>            
 
-   </head>
-<body>
-    
-    <div class="home animated fade-in-down">
-        <header class="hero-image" style="background-image:url('https://d3ubxrwj4q6e59.cloudfront.net/homepage-bg.jpg');">  
-            <div class="hero-title-meta">
-                <h1>Mike & JorDanee</h1>
-                <h2>Our musings on Life, Travel & Investing</h2>
-            </div>
-        </header>
-
-        <div class="home-alt">
-            <div class="who">
-                <img src="https://d3ubxrwj4q6e59.cloudfront.net/fam-photo.jpg">
-
-                <p>We're 30 somethings who have spent the last year and half living our dreams. Together we traveled across the United States in our Airstream travel trailer sharing our adventures with friends and family on our blog <a href="https://boldandadventurous.com/" target="_blank">Bold&Adventurous.com</a> and on Instagram at <a href="https://www.instagram.com/boldadventure/" target="_blank">@BoldAdventure</a> & <a href="https://www.instagram.com/herboldadventure/" target="_blank">@HerBoldAdventure</a>.</p>
-
-                <p>Today, we are chasing an entrepreneurial dream of owning a successful real estate investment business. We're incredibly passionate about this goal. And our first goal is to purchase two investment properties in Boise, Idaho by close of 2016.</p>
-            </div>
-        </div>
-        <div id="instafeed"></div> 
-        <!-- <div class="featured">
-            <h2><span>OUR RECENT POSTS<span></h2>
-            <ul class="entry-list">
-            {% for post in paginator.posts %}
-                <li>
-                    <h3>
-                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h3>
-                    {{ post.excerpt }}
-                    <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">continue reading <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
-                </li>
-                {% endfor %}
-            </ul>  
-            <a href="/archive/">VISIT THE BLOG</a>  
-        </div> -->
-            
-    </div>
-
-    {% include footer.html %}
         
 </body>
 </html>

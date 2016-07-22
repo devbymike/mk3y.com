@@ -1,84 +1,154 @@
-.entry-list,
-.who,
-.where,
-.why,
-.featured {
-    margin: 1em auto;
- 
-    max-width: 690px;
-    margin-left: auto;
-    margin-right: auto;
+.profile {
+    background-image: url('/assets/images/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-
-    padding: 0 20px;
-    text-align: center;
-} 
-.featured h2 {
-    font-size: 1.8rem;
-    margin-bottom:50px;
-    span {
-        text-align: center;
-        z-index: 1;
-        position: relative;
-        background-color: #fff;
-        padding: 0 5px;
-    }
-    &:after {
-        content: "";
-        position: absolute;
-        top:0;bottom:0;left:.6em;right:.6em;
-        z-index: -1;
-        border-top: 1px solid #aaa;
-        margin-top: .6em;
-    }
-}
-
-.home-alt {
-    position: relative;
-    overflow: hidden;
-    background-color: #000;
-    padding: 3em 0 6em;
-    margin-bottom:2rem;
-    &.two {
-        background-color: #f2f2f2;
-        padding: 0;
-    }
-}
-.who {
     img {
-        width: 250px;
-        height: auto;
-        object-fit: cover;
-        border-radius: 50%;
-        margin: 1em auto;
+        display: none;
     }
-    h2{
-        font-size: 2rem;
-        color: #fff;
-        line-height: 1.7em;
-    }
-    p {
-        color: #888;
-    }
-}
-.entry-list {
-    li {
-        list-style: none;
-        border-bottom: thin solid #f3f3f3;
-        text-align: left;
-        margin-bottom: 2rem;
-        padding-bottom: 2rem;
-    }
-    h3 {
-        text-transform: uppercase;
-        margin-bottom:.5rem;
-        a:link,
-        a:visited,
-        a:active{
-            color: #0F120B;
+
+    @media screen and (max-width: 900px) {
+        position: relative;
+        background: none;
+        margin-bottom: -15vw;
+        z-index: 0;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: linear-gradient(to bottom, rgba(#fff,0) 60%, #fff);
+            pointer-events: none;
+        }
+
+        img {
+            display: block;
+            width: 100%;
         }
     }
 }
 
+article {
+    background: rgba(#fff,.7);
+    flex-basis: 57vw;
+    padding: 6vw;
+    z-index: 1;
+
+    @media screen and (max-width: 900px) {
+        padding: 6vw;
+        flex: 0;
+        background: none;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding-bottom: 0;
+    }
+}
+
+.greeting {
+    font-size: 2.5vw;
+    line-height: .75;
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.1em;
+    }
+}
+
+.name {
+    color: #233140;
+    font-weight: 300;
+    font-size: 4.5vw;
+    margin-bottom: 3vw;
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.9em;
+    }
+}
+
+.message {
+    font-size: 2.5vw;
+    line-height: 1.4;
+    margin-bottom: 4vw;
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.1em;
+        margin-bottom: 6vw;
+    }
+
+    a {
+        color: #2980b9;
+        text-decoration: none;
+        border-bottom: .15vw solid #e7f2fa;
+        transition: border-color 100ms ease-in-out;
+
+        &:hover {
+            border-color: #94c6e7;
+        }
+    }
+}
+
+#instafeed {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -.5vw;
+    margin-left: -.5vw;
+    margin-right: -.5vw;
+
+    @media screen and (max-width: 600px) {
+        margin-top: -6px;
+        margin-left: -5.5vw;
+        margin-right: -5.5vw;
+    }
+
+    &:hover {
+        a {
+            opacity: .8;
+        }
+    }
+
+    a {
+        flex-grow: 1;
+        flex-basis: calc(100%/3);
+        line-height: 0;
+        transition: opacity 200ms ease-in-out;
+        border: .5vw solid transparent;
+
+        @media screen and (min-width: 1450px) {
+            flex-basis: calc(100%/4);
+        }
+
+        @media screen and (max-width: 1050px) {
+            flex-basis: calc(100%/2);
+        }
+
+        @media screen and (max-width: 900px) {
+            flex-basis: calc(100%/4);
+        }
+
+        @media screen and (max-width: 750px) {
+            flex-basis: calc(100%/3);
+        }
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
