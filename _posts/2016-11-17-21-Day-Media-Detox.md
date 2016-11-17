@@ -11,7 +11,7 @@ comments: false
 
 Social media has become a big part in how we connect with others. 
 
-For me, it's played a pivotal role in my life as my wife, and I traveled the country as <a href="https://boldandadventurous.com/" target="_blank">Mike Key</a>. We've made new friends, and explored so many new places thanks to Facebook, Twitter, and Instagram.
+For me, it's played a pivotal role in my life as my wife, and I traveled the country as <a href="https://boldandadventurous.com/" target="_blank">Bold&Adventurous</a>. We've made new friends, and explored so many new places thanks to Facebook, Twitter, and Instagram.
 
 But there is a dark side to the current state of social media. These platforms are a breeding ground for negativity and a distraction from real life. Even with some heavy swinging of the Hide From News Feed Hammer on FB, I can’t escape the random political rant. This past election cycle has been rough, though. It's made worse by the fact I am a political junky with friends on both sides of the political spectrum. 
 
@@ -21,7 +21,7 @@ And it's not just social media. The constant checking of news websites every hal
 
 How many times a day do you find yourself checking the news?
 
-        <h3>So I'm cutting out digital media for 21 days.</h3>
+##So I'm cutting out digital media for 21 days.
 
 The goal here is just to disconnect from the firehose of opinions, news cycles, and the addiction to vanity metrics (likes, RTs, favorites, follower counts, etc.).
 

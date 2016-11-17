@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://mk3y.com/21-Day-Media-Detox</loc>
+    <lastmod>2016-11-17T00:00:00-07:00</lastmod>
+  </url>
+  <url>
     <loc>https://mk3y.com/I-am-an-atheist</loc>
     <lastmod>2015-11-03T00:00:00-07:00</lastmod>
   </url>
@@ -242,5 +246,8 @@
     </url>
     <url>
       <loc>https://mk3y.com/I-am-an-atheist</loc>
+    </url>
+    <url>
+      <loc>https://mk3y.com/21-Day-Media-Detox</loc>
     </url>
 </urlset>

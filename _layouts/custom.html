@@ -21,19 +21,14 @@ layout: compress
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
         <!-- DEV CSS -->
-        <link rel="stylesheet" href="{{ "screen.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "custom.css" | prepend: site.baseurl }}">
 
    </head>
-<body class="animated fade-in-down">
-
-    <!-- DEV CSS -->
-    <link rel="stylesheet" href="{{ "screen.css" | prepend: site.baseurl }}">
-
 <body class="animated fade-in-down">
     <article> 
         <section class="meta">
             <h1>{{ page.title }}</h1>
-            <div class="desc">{{ page.date | date_to_long_string }}<span> by <a href="https://www.instagram.com/boldadventure/"><strong>boldadventure</strong></a></span></div>
+            <div class="desc">{{ page.date | date_to_long_string }}<span> by <a href="https://www.instagram.com/boldadventure/"><strong>Mike Key</strong></a></span></div>
         </section>
       
         {{ content }}
