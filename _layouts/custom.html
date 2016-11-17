@@ -1,3 +1,10 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -13,4 +20,25 @@
         <link rel="prefetch" href="{{ site.url }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-        <link rel="stylesheet" href="https://dyr3j7mwxsfy5.cloudfront.net/styles.min.css">
+        <!-- DEV CSS -->
+        <link rel="stylesheet" href="{{ "screen.css" | prepend: site.baseurl }}">
+
+   </head>
+<body class="animated fade-in-down">
+
+    <!-- DEV CSS -->
+    <link rel="stylesheet" href="{{ "screen.css" | prepend: site.baseurl }}">
+
+<body class="animated fade-in-down">
+    <article> 
+        <section class="meta">
+            <h1>{{ page.title }}</h1>
+            <div class="desc">{{ page.date | date_to_long_string }}<span> by <a href="https://www.instagram.com/boldadventure/"><strong>boldadventure</strong></a></span></div>
+        </section>
+      
+        {{ content }}
+
+    </article>
+        
+</body>
+</html>
