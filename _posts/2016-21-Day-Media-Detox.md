@@ -2,7 +2,7 @@
 layout: custom
 
 title: "A 21 Day Social Detox"
-permalink: /21-Day-Social-Detox
+permalink: /21-Day-Media-Detox
 
 category: social-media
 comments: false
