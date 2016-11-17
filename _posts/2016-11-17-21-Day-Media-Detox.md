@@ -21,7 +21,7 @@ And it's not just social media. The constant checking of news websites every hal
 
 How many times a day do you find yourself checking the news?
 
-##So I'm cutting out digital media for 21 days.
+## So I'm cutting out digital media for 21 days.
 
 The goal here is just to disconnect from the firehose of opinions, news cycles, and the addiction to vanity metrics (likes, RTs, favorites, follower counts, etc.).
 
