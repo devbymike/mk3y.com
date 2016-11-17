@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>MK3Y - Mike &amp; JorDanee Key</title>
-        <description>We&#39;re 30 somethings working, traveling and investing from the road while raising two kids</description>
+        <description>We're 30 somethings working, traveling and investing from the road while raising two kids</description>
         <link>https://mk3y.com/</link>
         <atom:link href="https://mk3y.com/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>Fri, 22 Jul 2016 18:10:15 -0600</pubDate>
-        <lastBuildDate>Fri, 22 Jul 2016 18:10:15 -0600</lastBuildDate>
-        <generator>Jekyll v3.0.2</generator>
+        <pubDate>Thu, 17 Nov 2016 12:28:03 -0700</pubDate>
+        <lastBuildDate>Thu, 17 Nov 2016 12:28:03 -0700</lastBuildDate>
+        <generator>Jekyll v3.2.1</generator>
         
             <item>
                 <title>I am an Atheist</title>
@@ -208,7 +208,7 @@
 
 &lt;p&gt;When our first daughter was born, my wife and I began to reevaluate the direction of our lives. One word kept surfacing in my mind, over and over.&lt;/p&gt;
 
-&lt;h3 id=&quot;medicore&quot;&gt;MEDICORE.&lt;/h3&gt;
+&lt;p&gt;###MEDICORE.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -367,11 +367,11 @@
 
 &lt;!--more--&gt;
 
-&lt;h3 id=&quot;read&quot;&gt;READ&lt;/h3&gt;
-&lt;p&gt;I’m challenging myself to make time to read a book for 30 minutes a night, every night, for the next 100 days.&lt;/p&gt;
+&lt;p&gt;###READ
+ I’m challenging myself to make time to read a book for 30 minutes a night, every night, for the next 100 days.&lt;/p&gt;
 
-&lt;h3 id=&quot;lift&quot;&gt;LIFT&lt;/h3&gt;
-&lt;p&gt;My fitness has been a sore spot for the past year. I’ve gained nearly 20lbs. So the LIFT goal is 3 parts:&lt;/p&gt;
+&lt;p&gt;###LIFT 
+My fitness has been a sore spot for the past year. I’ve gained nearly 20lbs. So the LIFT goal is 3 parts:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -385,13 +385,13 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;code&quot;&gt;CODE&lt;/h3&gt;
-&lt;p&gt;It’s what I do for a living. Some days I’m passionate about it, others not so much. But there is always room to expand my skillset. I’m setting aside some free time around lunch daily to learning new skills and working projects that advance my skillset. One thing I’d like to do is find an open source project I can contribute too.&lt;/p&gt;
+&lt;p&gt;###CODE 
+It’s what I do for a living. Some days I’m passionate about it, others not so much. But there is always room to expand my skillset. I’m setting aside some free time around lunch daily to learning new skills and working projects that advance my skillset. One thing I’d like to do is find an open source project I can contribute too.&lt;/p&gt;
 
 &lt;p&gt;Also, I want to wrap up my personal website’s glaringly obvious inconsistencies and ship a working site. Doesn’t need to be perfect, just working.&lt;/p&gt;
 
-&lt;h3 id=&quot;write&quot;&gt;WRITE&lt;/h3&gt;
-&lt;p&gt;Simple enough it seems. Writing is something of a secret passion for me. I enjoy, but I just don’t do enough of it. Writing is work, and it’s a craft you can learn and get better at. But you can only improve your writing, by writing (and reading).&lt;/p&gt;
+&lt;p&gt;###WRITE
+Simple enough it seems. Writing is something of a secret passion for me. I enjoy, but I just don’t do enough of it. Writing is work, and it’s a craft you can learn and get better at. But you can only improve your writing, by writing (and reading).&lt;/p&gt;
 
 &lt;p&gt;So I’ve set a simple goal of writing daily. And to keep myself on track a goal for this blog, 1 new post a week.&lt;/p&gt;
 
