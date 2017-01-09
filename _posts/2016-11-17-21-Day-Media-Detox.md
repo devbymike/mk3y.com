@@ -1,8 +1,11 @@
 ---
-layout: custom
+layout: post
 
 title: "A 21 Day Social Detox"
 permalink: /21-Day-Media-Detox
+
+banner: false
+banner_url: ""
 
 category: social-media
 comments: false

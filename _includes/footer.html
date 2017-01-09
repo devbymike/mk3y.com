@@ -1,11 +1,54 @@
-        <!-- footer start -->
+<footer>
 
-        <footer class="wrap">
-            <section class="copyright">&copy; 2009–{{ site.time | date: '%Y' }}  <a href="mailto:{{ site.email}}">MICHAEL KEY</a>  &bull; ALL RIGHTS RESERVED.</section>
-            <section class="poweredby">Made with  <div class="heart"></div>  using <a href="http://jekyllrb.com"> Jekyll</a></section>
-        </footer>
+    <div class="footer-menu">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/archive/">Archives</a></li>
+            <li><a href="/disclosure-statement/">Disclosure</a></li>
+            <li><a href="mailto:mike@mk3y.com">Contact</a></li>
+        </ul>
+    </div>    
 
-        <!-- footer end -->
-    
-    </body>
-</html>
+    <div class="footer-copyright">
+        <p class="copyright">All content &copy; 2009–{{ site.time | date: '%Y' }} <a href="mailto:{{ site.email}}">MICHAEL KEY</a>.</p>
+    </div>
+
+</footer>   
+
+<!-- <script>
+    /*!
+    loadCSS: load a CSS file asynchronously.
+    [c]2014 @scottjehl, Filament Group, Inc.
+    Licensed MIT
+    */
+    function loadCSS( href, before, media ){
+        "use strict";
+        var ss = window.document.createElement( "link" );
+        var ref = before || window.document.getElementsByTagName( "script" )[ 0 ];
+        var sheets = window.document.styleSheets;
+        ss.rel = "stylesheet";
+        ss.href = href;
+        ss.media = "only x";
+        ref.parentNode.insertBefore( ss, ref );
+        function toggleMedia(){
+            var defined;
+            for( var i = 0; i < sheets.length; i++ ){
+                if( sheets[ i ].href && sheets[ i ].href.indexOf( href ) > -1 ){
+                    defined = true;
+                }
+            }
+            if( defined ){
+                ss.media = media || "all";
+            }
+            else {
+                setTimeout( toggleMedia );
+            }
+        }
+        toggleMedia();
+        return ss;
+    }
+</script>
+<script>
+    loadCSS("{{ "/assets/styles.css" | prepend: site.baseurl }}");
+</script> -->

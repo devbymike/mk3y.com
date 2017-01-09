@@ -4,21 +4,27 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-<body class="animated fade-in-down">
+    <head>
+    
+        {% include head.html %}
 
-    {% if paginator.posts %}
-        {% include hero-image.html %}
-    {% endif %}
+   </head>
+<body class="{% if page.id %}post{% else %}page{% endif %} animated fade-in-down">
 
-    <div class="site-wrap">
-       
 
-        {{ content }}
+    {% include close-btn.html %}
 
-        {% include navigation.html %}
-    </div>
+    {% include header.html %}
+
+    <main role="main">    
+        <article>
+            {{ content }}
+        </article>
+    </main>  
 
     {% include footer.html %}
+
+
+
 </body>
 </html>

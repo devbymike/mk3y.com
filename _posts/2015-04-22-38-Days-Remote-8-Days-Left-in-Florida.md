@@ -4,8 +4,8 @@ layout: post
 title: "38 Days Remote - 8 Days Left in Florida"
 permalink: /38-days-remote-8-days-left-in-florida
 
-hero: true
-hero_image: "/media/jekyll.jpg"
+banner: true
+banner_url: "/images/bg.jpg"
 
 category: updates
 comments: false

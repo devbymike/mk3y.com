@@ -1,0 +1,86 @@
+header {
+    position: fixed;
+    top: 0;
+    left: auto;
+    width: 100%;
+    height: 500px;
+
+    background-position: 50% 50%;
+    background-size: cover;
+
+    z-index: 0;
+}
+
+.intro {
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    height: 200px;
+    text-align: center;
+    background: rgba(0, 0, 0, .3);
+    padding: 20px 30px;
+    max-width: 720px;
+    h1 {
+        display: block;
+        color: #fff;
+        padding: 0;
+        text-transform: uppercase;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+
+        font-size: 4em;
+        @media (min-width:400px) { 
+            font-size: 5em;
+        }
+    }
+    span {
+        display: block;
+        color: #f2f2f2;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    }
+}
+
+body.post header {
+    height: 200px;
+    @media (min-width:360px) { 
+        height: 300px;
+    }
+}
+
+a.close {
+    position:fixed;
+    right: 5px;
+    top: 5px;
+
+    height: 50px;
+    width: 50px;
+
+    background-color: rgba(204,204,204,0.7);
+    -webkit-border-radius: 50% 0 50% 50%;
+    -moz-border-radius: 50% 0 50% 50%;
+    border-radius: 50% 0 50% 50%;
+
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+
+    text-align: center;
+    
+    z-index: 999;
+
+    &:hover {
+        background-color: $green;
+            .home-icon {
+                fill: white;
+            }
+    }
+}
+
+.home-icon {
+    margin-top: 8px;
+    fill: black;
+    width: 30px;
+    height: auto;
+}

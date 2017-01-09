@@ -2,22 +2,4 @@
 layout: default
 ---
 
-<section class="posts wrapper">
-  <article class="post {% if page.featured == true %} featured {% endif %}">
-	  
-	<header>
-        <div class="feature"><span>Featured</span><i class="fa fa-bookmark fa-lg"></i></div>
-        <h1 id="posttitle"><a href="#">{{ page.title }}</a></h1>
-        <h2>
-            {% for category in post.categories %}
-                {{ category }} 
-            {% endfor %}
-        </h2>
-    </header>
-
-	<section class="postbody">
-		{{content}}
-	</section>
- 
-  </article>
-</section>
+{{content}}

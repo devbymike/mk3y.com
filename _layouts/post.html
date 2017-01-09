@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: compress
 ---
 
 {% assign minutes = content | number_of_words | divided_by: 180 %}
@@ -7,38 +7,35 @@ layout: default
 {% assign minutes = 1 %}
 {% endif %}
 
-<!-- Stolen from Joshtronic.com  -->
-<a href="/" class="close">&times;</a>
-<!-- Stolen from Joshtronic.com  -->
-
-<section class="post-content">
-        <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-        <time datetime="{{ page.date | date_to_long_string }}">{{ page.date | date_to_long_string }}</time>
-        <span class="post-meta small">{{ minutes }} minute read</span>
-        <span>
-            {% for category in page.categories %}
-                {{ category }} 
-            {% endfor %}
-        </span>
-    <article class="post">
-        <section class="postbody">
-            {{ content }}
-        </section>
-    </article>
-</section>
-
-<div class="wrap">
-<nav class="pagination">
-    {% if page.previous.url %}
-        <div>
-            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a> 
-        </div> 
-    {% endif %} 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
     
-    {% if page.next.url %} 
-        <div style="text-align: right;">
-            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a> 
-        </div>
-    {% endif %}
-</nav>
-</div>
+        {% include head.html %}
+
+   </head>
+<body class="{% if page.id %}post{% else %}page{% endif %} animated fade-in-down">
+
+    {% include close-btn.html %}
+
+    {% include header.html %}
+
+    <main role="main">    
+        <article class="article">
+            <section class="meta">
+                <h1>{{ page.title }}</h1>
+                <time datetime="{{ page.date |  date: '%B %d, %Y' }}">Posted: {{ page.date |  date: '%B %d, %Y' }}</time>
+                <span class="small">{{ minutes }} minute read</span> 
+            </section>
+            <section >
+                {{ content }}
+            </section>
+        </article>
+    </main>  
+
+    {% include pagination.html %}
+
+    {% include footer.html %}
+
+</body>
+</html>

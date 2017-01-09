@@ -1,4 +1,4 @@
-title: 	"MK3Y - Mike & JorDanee Key"
+title: 	"Mike Key - MK3Y.com"
 tagline: "Musing on life, work and travel"
 description: "We're 30 somethings working, traveling and investing from the road while raising two kids"
 email:  "mike@mk3y.com"
@@ -7,7 +7,7 @@ url: "https://mk3y.com"
 
 markdown: kramdown
 
-paginate:      3
+paginate:      5
 paginate_path: /blog/:num/
 
 permalink:     /:title/
@@ -22,9 +22,9 @@ exclude:
     - Gemfile
 
 sass:
-    sass_dir: "assets/_sass/"
+    sass_dir: "_dev/sass/"
     style: compressed
 
  # Custom vars
 icon:       "/assets/img/icon.png"
-cover:      "https://lh3.googleusercontent.com/kKsizieETQ0J1rc5YSIB-lEs1msXf8dAj70JtqSqVFA=w1232-h790-no"
+hero:      "/images/bg.jpg"

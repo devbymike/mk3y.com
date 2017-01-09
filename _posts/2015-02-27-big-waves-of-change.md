@@ -4,8 +4,8 @@ layout: post
 title: "Big Waves of Change"
 permalink: /big-waves-of-change
 
-hero: false
-hero_image: "/media/jekyll.jpg"
+banner: true
+banner_url: "/images/cbx1eygm3bm-alden-skeie.jpg"
 
 category: updates
 comments: false

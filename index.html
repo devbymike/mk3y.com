@@ -5,37 +5,46 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    
         {% include head.html %}
 
-        <!-- DEV CSS -->
-        <!-- <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}"> -->
-
    </head>
-<body class="animated fade-in-down">
+<body class="home animated fade-in-down">
+    
+    {% include header-home.html %}
 
-        <div class="profile">
-            <img src="https://dyr3j7mwxsfy5.cloudfront.net/profile.jpg" alt="Mike Key JorDanne Key">
-        </div>
+    <main role="main">  
         <article>
-            <h2 class="greeting">Hey,</h2>
-            <h1 class="name">We're Mike & JorDanee</h1>
-            <h3 class="message">We're 30 somethings who have spent the last year and half living our dreams. Together we traveled across the United States in our Airstream travel trailer sharing our adventures with friends and family on our blog <a href="https://boldandadventurous.com/" target="_blank">Bold&Adventurous.com</a> and on Instagram at <a href="https://www.instagram.com/boldadventure/" target="_blank">@BoldAdventure</a> & <a href="https://www.instagram.com/herboldadventure/" target="_blank">@HerBoldAdventure</a>. <br><br>Today, we are chasing an entrepreneurial dream of owning a successful real estate investment business. We're incredibly passionate about this goal. To this end, our first goal is to purchase two investment properties in Boise, Idaho by close of 2016.</h3>
-            <div id="instafeed"></div>
+            <section>
+                <div class="section-title"><span>WHO</span></div>
+                <p>Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo and drink whiskey. Shipping code as a Front End 
+                Developer. I traveled with my family full time in our Airstream for a year and half. Now investing in real estate in Idaho will 
+                exploring on the weekends.</p>
+            </section>
+            <section>
+                <div class="section-title"><span>THE BLOG</span></div>
+                <ul class="entry-list">
+                {% for post in paginator.posts %}
+                    {% assign minutes = post.content | number_of_words | divided_by: 180 %}
+                    {% if minutes == 0 %}
+                    {% assign minutes = 1 %}
+                    {% endif %}
+
+                    <li>
+                        <h2>
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h2>
+                        <span><time datetime="{{ post.date |  date: '%B %d, %Y' }}">{{ post.date |  date: '%B %d, %Y' }}</time> / {{ minutes }} minute read</span>
+                        <p>{{ post.content | strip_html | truncatewords:40 }} <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">>></a></p>
+                    </li>
+                    {% endfor %}
+                </ul>  
+                <a href="/archive/">Older Articles</a>  
+            </section>
         </article>
-
-        <script type="text/javascript" src="https://dyr3j7mwxsfy5.cloudfront.net/theme.min.js"></script>
-
-        <script type="text/javascript">
-                var feed = new Instafeed({
-                clientId: '653144ea2a8048d59003964097ab5a2f',
-                accessToken: '2189029.653144e.bf72c937d0fc4d62b36d437f40404ef1',
-                get: 'user',
-                userId: '2189029',
-                sortBy: 'most-liked'
-            });
-            feed.run();
-        </script>            
-
+    </main>
         
+    {% include footer.html %}       
+
 </body>
 </html>

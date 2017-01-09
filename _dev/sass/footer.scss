@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    max-width: 720px;
+    padding: 20px 0;
+    margin:0 auto;
+    text-align: center;
+}
+
+.footer-menu,
+.footer-copyright {
+    color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    a {
+        color: #f2f2f2;
+    }
+}
+
+.footer-menu ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+p.copyright {
+    font-size: 14px;
+}
