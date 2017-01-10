@@ -32,8 +32,6 @@ article {
     }
 }
 
-// HOMEPAGE CRITICAL
-// TO BE REMOVED FOR CRITICAL INLINE LATER
 .section-title {
     font-family: $titlefont;
     text-align: center;
@@ -76,6 +74,14 @@ body.home section:nth-of-type(1) {
         margin-bottom: 75px;
         padding-bottom: 75px;
         border-bottom: thin solid #f3f3f3;
+    }
+    a {
+        color:$titles;
+        -webkit-transition: all .2s ease-out;
+        transition: all .2s ease-out
+    }
+    a:hover {
+        color: $links;
     }
 }
 
@@ -187,5 +193,15 @@ section p a {
     }
     &:hover h3 {
         color: rgba(255,255,255,1);
+    }
+}
+
+ul.archive-list {
+    list-style: none;
+    li {
+            margin-bottom: 1.333em;
+    padding-bottom: 0.666em;
+    border-bottom: thin solid #f3f3f3;
+    text-align: left;
     }
 }
