@@ -26,8 +26,8 @@ layout: compress
             <section class="who">
                 <center><img src="/images/avatar_01.jpg" alt="Mike Key" title="Mike Key"></center>
                 <div class="section-title"><span>Bio</span></div>
-                <p>Husband. Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo & drink whiskey. Shipping code weekly for Wihp Hotels as a front end developer. Exploring the American West with every other oppurtunity.</p>
-                <a href="/about/">Learn my story <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
+                <p>Husband. Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo & drink whiskey. Shipping code as a front end dev for Wihp Hotels. Weekend adventures with an Airstream in tow.</p>
+                <p><strong>Current Location:</strong> Idaho, USA</p>
             </section>
             <section>
                 <div class="section-title"><span>Writings</span></div>
@@ -37,56 +37,46 @@ layout: compress
                     {% if minutes == 0 %}
                     {% assign minutes = 1 %}
                     {% endif %}
-
                     <li>
                         <h2>
                             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                         </h2>
                         <span><time datetime="{{ post.date |  date: '%B %d, %Y' }}">{{ post.date |  date: '%B %d, %Y' }}</time> / {{ minutes }} minute read</span>
                         <p>{{ post.content | strip_html | truncatewords:40 }}</p>
-                        <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">READ THIS <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
+                        <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">KEEP READING <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
                     </li>
                     {% endfor %}
                 </ul>  
-
-
-
-
                 {% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
+                <div class="pagination">
+                    {% if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer Posts</a>
+                    {% else %}
+        
+                    {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
+                    {% for page in (1..paginator.total_pages) %}
+                        {% if page == paginator.page %}
+                        <em>{{ page }}</em>
+                        {% elsif page == 1 %}
+                        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+                        {% else %}
+                        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                        {% endif %}
+                    {% endfor %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
+                    {% if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &raquo;</a>
+                    {% else %}
+                    <span>Prev &raquo;</span>
+                    {% endif %}
+                </div>
+                {% endif %}
 
-
-                <a href="/archive/">Older Articles</a>  
             </section>
         </article>
     </main>
         
-
-
-
     {% include footer.html %} 
 
     {% include scripts.html %}

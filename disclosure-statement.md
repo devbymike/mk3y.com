@@ -5,14 +5,12 @@ title: Disclosure Statement
 
 ## DISCLOSURE STATEMENT
 
-As you’ve probably noticed, we link to various products and/or services in our articles. When you make a purchase though one of these links, we receive a small commission to help keep this site going. This doesn’t cost you anything, it’s just a way for the various sites to thank us for sending them traffic.
+Occasionally I will link to various products and/or services in my posts. When you make a purchase using one of these links, I will receive a small commission. This doesn’t cost you anything.
 
-Thanks for your support!
+Just to be clear. I would NEVER promote a product that I have not or would not spend my own money on. NEVER will I allow financial gain change my opinion about a product. You can be certain that I believe 100% in the products or services recommended on this site.
 
-We want to make it very clear. We would NEVER promote a product that we have not or would not spend our own money on. We will NEVER let financial gain change our opinion about a product. You can be certain that we believe 100% in the products recommended on this site.
-
-With that said, we hope you enjoy our writing and find the links useful.
+THANK YOU for your support!
 
 All the best,
 
-Mike & JorDanee
+Mike Key

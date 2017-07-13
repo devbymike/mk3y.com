@@ -5,19 +5,14 @@ permalink: /about/
 ---
 
 
-##Who
-My name is **Mike Key** and I created this site. If you spend enough time around here, you’ll notice that I have a sincere passion for life, learning, self improvement and entrepreneurship. [JorDanee](http://jk3y.com) and I have been married 5 years and we have a 12mo old daughter with a second on the way in April.
+About Mike Key
+---
 
-I make a living banging out code as a front end developer for [Wihp](http://wihphotels.com). 
 
-##WordPress
+**Mike Key** is a father, husaband, part time real estate investor and full time front end dev. (That's me, I'll switch to first person) 
 
-In 2009 I started a freelance business, MK3Y was born. I itched out a living for myself helping clients with WordPress websites, including running the local WordPress meetup in my hometown of Hampton Roads.
+Well, I'm just a guy with a family trying to make something of himself and leave a legacy. Life is short. And time is precious.
 
-Since that time I have built and launched nearly two dozen WordPress sites. 
+I'm orginally from Virginia but have been traveling the country for the past couple of years with my wife and children in tow.
 
-Only recently have I stopped using WordPress for my personal projects, only to further develop and sharpen my skillset. 
 
-##Contact
-
-You can contact me via [email](mailto:mike@mk3y.com) or follow me on [Twitter](http://twitter.com/mike_key), [Github](http://github.com/devbymike).
