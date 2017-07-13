@@ -7,7 +7,7 @@ permalink: /38-days-remote-8-days-left-in-florida
 banner: true
 banner_url: "/images/bg.jpg"
 
-category: updates
+category: general
 comments: false
 
 ---

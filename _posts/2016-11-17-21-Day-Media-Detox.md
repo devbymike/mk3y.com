@@ -7,7 +7,7 @@ permalink: /21-Day-Media-Detox
 banner: false
 banner_url: ""
 
-category: social-media
+category: general
 comments: false
 
 ---

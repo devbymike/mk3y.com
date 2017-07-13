@@ -71,8 +71,8 @@ body.home section:nth-of-type(1) {
 
     }
     li {
-        margin-bottom: 75px;
-        padding-bottom: 75px;
+        margin-bottom: 45px;
+        padding-bottom: 45px;
         border-bottom: thin solid #f3f3f3;
     }
     a {
@@ -199,9 +199,41 @@ section p a {
 ul.archive-list {
     list-style: none;
     li {
-            margin-bottom: 1.333em;
-    padding-bottom: 0.666em;
-    border-bottom: thin solid #f3f3f3;
-    text-align: left;
+        margin-bottom: 1.333em;
+        padding-bottom: 0.666em;
+        border-bottom: thin solid #f3f3f3;
+        text-align: left;
     }
+}
+
+a.read-more {
+    display: block;
+    position: relative;
+    color: $titles;
+    font-size: .75em;
+    transition: margin-left .4s .8s;
+    &:hover {
+        text-decoration: none;
+        padding-left: 1em;
+        color: $green; 
+        .shape-arrow--broken {
+            fill: $green; 
+        }
+    }
+}
+
+.shape-arrow--broken {
+    width: 35px;
+    height: 10px;
+    fill: $titles;
+    margin-left: .50em;
+    margin-bottom: .05em;
+}
+
+.who img {
+        width: 250px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 1em auto;
 }

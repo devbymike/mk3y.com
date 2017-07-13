@@ -1,16 +1,16 @@
-title: 	"Mike Key - MK3Y.com"
-tagline: "Musing on Business, Self Improvement, Life and Travel"
-description: "Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo and drink whiskey"
-email:  "mike@mk3y.com"
-baseurl: ""
-url: "https://mk3y.com"
+title: 	        "Mike Key - MK3Y.com"
+tagline:        "Musing on Business, Self Improvement, Life and Travel"
+description:    "Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo and drink whiskey"
+email:          "mike@mk3y.com"
+baseurl:        ""
+url:            "https://mk3y.com"
 
-markdown: kramdown
+markdown:       kramdown
 
-paginate:      5
-paginate_path: /blog/:num/
+paginate:       3
+paginate_path:  /blog/:num/
 
-permalink:     /:title/
+permalink:      /:title/
 
 gems:
   - jekyll-sitemap
@@ -21,10 +21,15 @@ exclude:
     - CNAME
     - Gemfile
 
+collections:
+  my_categories:
+    output: true
+    permalink: /blog/category/:name/
+
 sass:
     sass_dir: "_dev/sass/"
     style: compressed
 
  # Custom vars
-icon:       "/assets/img/icon.png"
-hero:      "/images/bg.jpg"
+icon:          "/assets/img/icon.png"
+hero:          "/images/bg.jpg"

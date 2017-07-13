@@ -8,7 +8,7 @@ banner: true
 banner_url: "/images/2016-04-211327.jpg"
 
 
-category: atheism
+category: thoughts
 comments: false
 
 ---

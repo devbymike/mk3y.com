@@ -7,6 +7,12 @@ layout: compress
 {% assign minutes = 1 %}
 {% endif %}
 
+{% assign category = site.my_categories | where: "slug", post.category %}
+{% assign category = category[0] %}
+{% if category %}
+    {% capture category_content %}<a class="label" href="{{ category.url }}">{{ category.name }}</a>{% endcapture %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -26,6 +32,7 @@ layout: compress
                 <h1>{{ page.title }}</h1>
                 <time datetime="{{ page.date |  date: '%B %d, %Y' }}">Posted: {{ page.date |  date: '%B %d, %Y' }}</time>
                 <span class="small">{{ minutes }} minute read</span> 
+                <p id="post-meta">{{ category_content }}</p>
             </section>
             <section >
                 {{ content }}

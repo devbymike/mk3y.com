@@ -11,18 +11,26 @@ layout: compress
    </head>
 <body class="home animated fade-in-down">
     
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="arrowBroken" viewBox="0 0 35 10">
+      <polygon points="35,5 25,0 25,4 20,4 20,6 25,6 25,10 "/>
+      <rect x="10" y="4" width="5" height="2"/>
+      <rect y="4" width="5" height="2"/>
+      </symbol>
+    </svg>  
+
     {% include header-home.html %}
 
     <main role="main">  
         <article>
             <section class="who">
-                <div class="section-title"><span>THE WHO</span></div>
-                <p>Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo, drink whiskey and shoot guns. Shipping code as a Front End 
-                Developer. Traveled the country with my family full time in our Airstream for a year and half. Now investing in real estate in Idaho while 
-                exploring the Pacific Northwest on the weekends. Occasionally I build things.</p>
+                <center><img src="/images/avatar_01.jpg" alt="Mike Key" title="Mike Key"></center>
+                <div class="section-title"><span>Bio</span></div>
+                <p>Husband. Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo & drink whiskey. Shipping code weekly for Wihp Hotels as a front end developer. Exploring the American West with every other oppurtunity.</p>
+                <a href="/about/">Learn my story <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
             </section>
             <section>
-                <div class="section-title"><span>THE WHAT</span></div>
+                <div class="section-title"><span>Writings</span></div>
                 <ul class="entry-list">
                 {% for post in paginator.posts %}
                     {% assign minutes = post.content | number_of_words | divided_by: 180 %}
@@ -35,15 +43,50 @@ layout: compress
                             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                         </h2>
                         <span><time datetime="{{ post.date |  date: '%B %d, %Y' }}">{{ post.date |  date: '%B %d, %Y' }}</time> / {{ minutes }} minute read</span>
-                        <p>{{ post.content | strip_html | truncatewords:40 }} <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">READ MORE</a></p>
+                        <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                        <a href="{{ BASE_PATH }}{{ post.url }}" class="read-more">READ THIS <svg class="shape-icon shape-arrow--broken"><use xlink:href="#arrowBroken"></use></svg></a>
                     </li>
                     {% endfor %}
                 </ul>  
+
+
+
+
+                {% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+
+
                 <a href="/archive/">Older Articles</a>  
             </section>
         </article>
     </main>
         
+
+
+
     {% include footer.html %} 
 
     {% include scripts.html %}
