@@ -48,7 +48,7 @@ In a word, excellent. It's not a TV dinner, that's for sure. Nutrition Solutions
 
 ![Meatballs](https://dwxg8af4z2ddw.cloudfront.net/2017-07-17 12.41.37.jpg)
 
-The quality and variety has been great. And it's already fueled some weight loss for both of us.
+The quality and variety has been great. And it's already fueled some weight loss for both of us. My wife has had the most success, loosing 12lbs in the first week. I've lost 7lbs.
 
 We're going to continue with this for a full four weeks to see how we do. And then I think we might attempt to replicate the meal plan on our own for some additional cost savings.
 
