@@ -29,6 +29,13 @@ article {
     @media (min-width:1024px) {
         padding: 40px 0 150px
     }
+
+    img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: block;
+    }
 }
 
 .section-title {
