@@ -12,7 +12,7 @@ comments: false
 
 ---
 
-In my last about turning 35, I touched a little bit about my weight. And the fact that I've just been eating like shit for awhile.
+In my last post about [turning 35](on-turning-35), I touched a little bit about my weight. And the fact that I've just been eating like shit for awhile.
 
 Part of my plan for getting myself straightened out is fixing my eating habits. Three weeks ago I stumbled upon an easy solution to the food problem. No, it's not weight watchers.
 
