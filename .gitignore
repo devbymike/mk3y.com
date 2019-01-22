@@ -6,4 +6,4 @@ npm-debug.log
 package-lock.json
 
 node_modules
-_public_html
+public_html
