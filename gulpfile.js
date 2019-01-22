@@ -10,6 +10,7 @@ browserSync = require('browser-sync').create(),
      concat = require('gulp-concat'),
      uglify = require('gulp-uglify'),
      rename = require('gulp-rename'),
+     deploy = require('gulp-gh-pages'),
       gutil = require('gulp-util'),
        sass = require('gulp-sass'),
        maps = require('gulp-sourcemaps'),
@@ -97,7 +98,7 @@ gulp.task('jekyll-build', (code) => {
 
 
 // Rebuild Jekyll with Delay
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+gulp.task('jekyll-rebuild', ['jekyll-build'], () => {
     browserSync.reload({reloadDelay: 5000});
 });
 
@@ -114,6 +115,14 @@ gulp.task('serve', ['makeCSS', 'makeJS', 'jekyll-build'], () => {
 });
 
 
+// DEPLOY TO GITHUB
+gulp.task('push', () => {
+  return gulp.src("./**/*")
+    .pipe(deploy())
+});
+
+
 // Do this stuff by default
 gulp.task('default', ['serve']);
-gulp.task('build', ['makeCSS', 'makeJS', 'jekyll-build']);
+gulp.task('build', ['makeCSS', 'makeJS', 'compressIMG', 'jekyll-build']);
+gulp.task('deploy', ['build', 'push']);

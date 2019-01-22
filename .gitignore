@@ -1,9 +1,0 @@
-.DS_Store
-.sass-cache
-.jekyll-metadata
-
-npm-debug.log
-package-lock.json
-
-node_modules
-public_html
