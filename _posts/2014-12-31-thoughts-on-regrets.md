@@ -2,7 +2,7 @@
 layout: post
 
 title: "Thoughts on regrets"
-permalink: /thoughts-on-regrets
+permalink: /thoughts-on-regrets/
 
 hero: false
 hero_image: ""

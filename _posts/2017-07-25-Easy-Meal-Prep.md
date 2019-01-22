@@ -2,7 +2,7 @@
 layout: post
 
 title: "Two Weeks of Easy Meal Prep"
-permalink: /easy-meal-prep-with-nutrition-solutions
+permalink: /easy-meal-prep-with-nutrition-solutions/
 
 banner: true
 banner_url: "https://dwxg8af4z2ddw.cloudfront.net/food-bg.jpg"

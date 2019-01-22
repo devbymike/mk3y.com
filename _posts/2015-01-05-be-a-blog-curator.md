@@ -2,7 +2,7 @@
 layout: post
 
 title: "Be a Content Curator"
-permalink: /be-a-content-curator
+permalink: /be-a-content-curator/
 
 hero: false
 hero_image: ""

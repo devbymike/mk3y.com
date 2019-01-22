@@ -2,7 +2,7 @@
 layout: post
 
 title: "Goodbye Blog Comments"
-permalink: /goodbye-blog-comments
+permalink: /goodbye-blog-comments/
 
 hero: false
 hero_image: ""

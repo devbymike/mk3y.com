@@ -1,14 +1,9 @@
-_site
+.DS_Store
+.sass-cache
+.jekyll-metadata
+
+npm-debug.log
+package-lock.json
 
 node_modules
-
-.sass-cache
-npm-debug.log
-
-.DS_Store
-deploy/_posts/.DS_Store
-deploy/_includes/.DS_Store
-deploy/_layouts/.DS_Store
-deploy_plugin/.DS_Store
-deploy/assets/.DS_Store
-deploy/media/.DS_Store
+_public_html

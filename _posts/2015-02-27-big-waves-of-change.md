@@ -2,7 +2,7 @@
 layout: post
 
 title: "Big Waves of Change"
-permalink: /big-waves-of-change
+permalink: /big-waves-of-change/
 
 banner: true
 banner_url: "/images/cbx1eygm3bm-alden-skeie.jpg"

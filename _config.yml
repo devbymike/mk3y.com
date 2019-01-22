@@ -1,3 +1,17 @@
+# JEKYLL BUILD SETUP
+exclude:
+    - CNAME
+    - README
+    - LICENSE
+    - Gemfile
+    - package.json
+    - gulfile.js
+    - node_modules
+    - _dev
+
+destination: ./public_html
+
+# SITE SETUP
 title: 	        "Mike Key - mk3y.com"
 tagline:        "Musing on Business, Self Improvement, Life and Travel"
 description:    "Father. Polymath. Autodidact. I read old books, lift heavy things, eat paleo and drink whiskey."
@@ -12,23 +26,16 @@ paginate_path:  /blog/:num/
 
 permalink:      /:title/
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-exclude:
-    - README.md
-    - CNAME
-    - Gemfile
 
 collections:
   my_categories:
     output: true
     permalink: /blog/category/:name/
 
-sass:
-    sass_dir: "_dev/sass/"
-    style: compressed
 
  # Custom vars
 icon:          "/assets/img/icon.png"

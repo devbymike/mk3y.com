@@ -2,7 +2,7 @@
 layout: post
 
 title: "Urgency Vs Importance"
-permalink: /urgency-vs-importance
+permalink: /urgency-vs-importance/
 
 hero: false
 hero_image: ""

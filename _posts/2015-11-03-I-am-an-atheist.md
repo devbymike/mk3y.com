@@ -2,7 +2,7 @@
 layout: post
 
 title: "I am an Atheist"
-permalink: /I-am-an-atheist
+permalink: /I-am-an-atheist/
 
 banner: true
 banner_url: "/images/2016-04-211327.jpg"

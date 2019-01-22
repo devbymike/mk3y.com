@@ -2,7 +2,7 @@
 layout: post
 
 title: "The Flinch"
-permalink: /julien-smith-the-flinch-book-review
+permalink: /julien-smith-the-flinch-book-review/
 
 hero: false
 hero_image: "/media/jekyll.jpg"

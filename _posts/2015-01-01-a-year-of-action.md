@@ -2,7 +2,7 @@
 layout: post
 
 title: "A Year of Action"
-permalink: /a-year-of-action
+permalink: /a-year-of-action/
 
 hero: false
 hero_image: ""

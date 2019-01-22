@@ -2,7 +2,7 @@
 layout: post
 
 title: "Why I am Writing"
-permalink: /why-I-am-writing
+permalink: /why-I-am-writing/
 
 hero: false
 hero_image: ""

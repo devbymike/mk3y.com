@@ -2,7 +2,7 @@
 layout: post
  
 title: "Jekyll + Github Pages > WordPress"
-permalink: /jekyll-github-pages
+permalink: /jekyll-github-pages/
  
 hero: true
 hero_img: "/media/jekyll-vs-wordpress.jpg"
